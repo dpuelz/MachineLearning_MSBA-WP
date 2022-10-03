@@ -18,7 +18,10 @@ Weeks 5-7: Regression ([slides 1](slides/Sec1_Intro.pdf)), ([slides 2](slides/Se
 - Week 6: Dummy variables, transformations, variable selection and regularization
 - Week 7: Introduction to classification regression
 
-Weeks  8-9: Trees
+Weeks  8-9: Trees: ([slides](slides/Sec4_Trees.pdf))
+
+- Week 8: Introduction to trees
+- Week 9: How to fit tree ensembles
 
 Week 10: Resampling
 
