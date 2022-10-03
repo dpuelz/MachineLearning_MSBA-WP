@@ -7,7 +7,9 @@ Week 1: The Data Scientist Toolbox ([slides](slides/01_datascience_toolbox.pdf))
 
 Week 2: Data Visualization and Wrangling ([slides 1](slides/datavis.pdf)) & ([slides 2](slides/wrangling.pdf))
 
-Weeks 3-4: Probability
+Weeks 3-4: Probability ([slides](slides/PRL-probability.pdf))
+-- Week 3: Definition and conditioning, independence
+-- Week 4: Paradoxes, fallacies, and the rule of total probability
 
 Weeks 5-7: Regression
 
