@@ -23,14 +23,14 @@ Weeks  8-9: Trees: ([slides](slides/Sec4_Trees.pdf))
 - Week 8: Introduction to trees
 - Week 9: How to fit tree ensembles
 
-Week 10: Resampling
+Week 10: Resampling ([slides](slides/bootstrap_STA380.pdf))
 
-Week 11: Clustering
+Week 11: Clustering ([slides](slides/05-clustering.pdf))
 
-Week 12: Principal Component Analysis
+Week 12: Principal Component Analysis ([slides](slides/06-PCA.pdf))
 
-Week 13: Networks
+Week 13: Networks ([slides](slides/Networks.pdf))
 
-Week 14: Text
+Week 14: Text ([slides](slides/text_intro.pdf))
 
-Week 15: Causal ML
+Week 15: Causal ML ([slides](slides/causalML.pdf))
