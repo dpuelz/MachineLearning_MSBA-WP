@@ -13,7 +13,6 @@ Content for Introduction to Machine Learning course offered in the MSBA for work
 	- [Introduction to GitHub](https://guides.github.com/activities/hello-world/)   
 	- [Getting starting with GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)  
 	- [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)     
-	- These instructions will make sense after you read the tutorials above!   
 
 - Code: NA       
 - Data: NA             
@@ -22,7 +21,8 @@ Content for Introduction to Machine Learning course offered in the MSBA for work
 	- Create your first GitHub repository.  
 	- Inside that repository (on your local machine), create a toy RMarkdown file that does something---e.g. simulates some normal random variables and plots a histogram.  
 	- Knit that RMarkdown file to a Markdown (.md) output.  
-	- Push the changes to GitHub and view the final (knitted) .md file.     
+	- Push the changes to GitHub and view the final (knitted) .md file. 
+	- These instructions will make sense after you read the tutorials above!       
 
 ### Week 2: Data Visualization and Wrangling ([slides 1](slides/datavis.pdf)) & ([slides 2](slides/wrangling.pdf))
 
