@@ -12,13 +12,10 @@ Content for Introduction to Machine Learning course offered in the MSBA for work
 - Week 3: Definition and conditioning, independence
 - Week 4: Paradoxes, fallacies, and the rule of total probability
 
-##### Textbook readings: 
-
-Other readings: 
-
-Code:
-
-Data: 
+##### Textbook readings: test
+##### Other readings:  test
+##### Code:
+##### Data: 
 
 ### Weeks 5-7: Regression ([slides 1](slides/Sec1_Intro.pdf)), ([slides 2](slides/Sec2_Regression.pdf)), & ([slides 3](slides/naive_bayes_text.pdf))
 
