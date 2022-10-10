@@ -1,5 +1,5 @@
 # Overview
-Content for Introduction to Machine Learning course offered in the MSBA for working professionals program at UT Austin.  The textbook we will use heavily is *Introduction to Statistical Learning*, and it available for free in pdf form at the following [link]().
+Content for Introduction to Machine Learning course offered in the MSBA for working professionals program at UT Austin.  The textbook we will use heavily is *Introduction to Statistical Learning*, and it available for free in pdf form at the following [link](https://trevorhastie.github.io/ISLR/ISLR%20Seventh%20Printing.pdf).
 
 # Course structure
 
