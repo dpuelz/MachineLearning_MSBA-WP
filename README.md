@@ -14,6 +14,7 @@ Other readings:
 - [Getting starting with GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)  
 - [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)     
 - These instructions will make sense after you read the tutorials above!   
+
 Code: --   
 Data: --     
 
