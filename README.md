@@ -5,7 +5,7 @@ Content for Introduction to Machine Learning course offered in the MSBA for work
 
 ### Week 1: The Data Scientist Toolbox 
 
-- Slides: ([slides](slides/01_datascience_toolbox.pdf))   
+- ([Slides](slides/01_datascience_toolbox.pdf))   
 - Textbook readings: NA   
 - Other readings:
 	- [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
