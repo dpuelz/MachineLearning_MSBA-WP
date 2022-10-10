@@ -5,7 +5,7 @@ Content for Introduction to Machine Learning course offered in the MSBA for work
 
 ### Week 1: The Data Scientist Toolbox 
 
-Slides: ([slides](slides/01_datascience_toolbox.pdf))
+Slides: ([slides](slides/01_datascience_toolbox.pdf))   
 Textbook readings: test
 Other readings:  test
 Code:
