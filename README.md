@@ -6,10 +6,16 @@ Content for Introduction to Machine Learning course offered in the MSBA for work
 ### Week 1: The Data Scientist Toolbox 
 
 Slides: ([slides](slides/01_datascience_toolbox.pdf))   
-Textbook readings: test
-Other readings:  test
-Code:
-Data: 
+Textbook readings: --   
+Other readings:
+- [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
+- [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)  
+- [Introduction to GitHub](https://guides.github.com/activities/hello-world/)   
+- [Getting starting with GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)  
+- [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)     
+- These instructions will make sense after you read the tutorials above!   
+Code: --   
+Data: --     
 
 ### Week 2: Data Visualization and Wrangling ([slides 1](slides/datavis.pdf)) & ([slides 2](slides/wrangling.pdf))
 
