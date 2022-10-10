@@ -6,7 +6,7 @@ Content for Introduction to Machine Learning course offered in the MSBA for work
 ### Week 1: The Data Scientist Toolbox 
 
 Slides: ([slides](slides/01_datascience_toolbox.pdf))   
-Textbook readings: --   
+Textbook readings: NA   
 Other readings:
 - [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
 - [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)  
@@ -15,9 +15,9 @@ Other readings:
 - [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)     
 - These instructions will make sense after you read the tutorials above!   
 
-Code: --   
-Data: --
-Assignment:  
+Code: NA       
+Data: NA             
+Assignment:     
 - Create a GitHub account.  
 - Create your first GitHub repository.  
 - Inside that repository (on your local machine), create a toy RMarkdown file that does something---e.g. simulates some normal random variables and plots a histogram.  
