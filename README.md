@@ -1,5 +1,8 @@
 # Overview
-Content for Introduction to Machine Learning course offered in the MSBA for working professionals program at UT Austin.  The textbook we will use heavily is *Introduction to Statistical Learning*, and it available for free in pdf form at the following [link](https://trevorhastie.github.io/ISLR/ISLR%20Seventh%20Printing.pdf).
+
+This is the course page for STA380, an introductory course on machine learning for students in the MS program in Business Analytics at UT-Austin. In the first half of the course, you'll learn about probability concepts and predictive models for labeled data (i.e. regression, or supervised learning). In the second half, we will turn to exploratory data analysis, resampling methods for uncertainty quantification, and unsupervised learning, i.e. learning to model structure in unlabeled data.
+
+The textbook we will use heavily is *Introduction to Statistical Learning*, and it available for free in pdf form at the following [link](https://trevorhastie.github.io/ISLR/ISLR%20Seventh%20Printing.pdf).
 
 # Course structure
 
