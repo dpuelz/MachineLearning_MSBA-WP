@@ -18,12 +18,9 @@ The textbook we will use heavily is *Introduction to Statistical Learning*, and 
 	- [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)     
 
 - Code: [Example Rmd file](code/example.Rmd)      
-- Data: NA             
-- Assignment:     
-	- Create a toy RMarkdown file that does something---e.g. simulates some normal random variables and plots a histogram.  
-	- Knit that RMarkdown file to a pdf output.
-	- Get comfortable interacting with our course Github website. 
-	- These instructions will make sense after you read the tutorials above!       
+- Data: NA       
+- [Discussion questions](discussions/week1.md)
+- [Assignment](assignments/week1.md)
 
 ### Week 2: Data Visualization and Wrangling ([slides 1](slides/datavis.pdf)) & ([slides 2](slides/wrangling.pdf))
 
