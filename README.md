@@ -8,8 +8,8 @@ The textbook we will use heavily is *Introduction to Statistical Learning*, and 
 
 ### Week 1: The Data Scientist Toolbox 
 
-- [Slides](slides/01_datascience_toolbox.pdf)
-- Textbook readings: NA   
+- [Slides](slides/week1.pdf)
+- Textbook readings: NA 
 - Other readings:
 	- [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
 	- [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)  
@@ -17,7 +17,7 @@ The textbook we will use heavily is *Introduction to Statistical Learning*, and 
 	- [Getting starting with GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)  
 	- [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)     
 
-- Code: NA       
+- Code: [Example Rmd file](code/example.Rmd)      
 - Data: NA             
 - Assignment:     
 	- Create a toy RMarkdown file that does something---e.g. simulates some normal random variables and plots a histogram.  
