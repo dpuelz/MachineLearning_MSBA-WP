@@ -9,7 +9,7 @@ The textbook we will use heavily is *Introduction to Statistical Learning*, and 
 ### Week 1: The Data Scientist Toolbox 
 
 - [Slides](slides/week1.pdf)
-- Textbook readings: NA 
+- Textbook readings: *ISL* Ch. 1, 2.1, and 2.3.
 - Other readings:
 	- [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
 	- [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)  
