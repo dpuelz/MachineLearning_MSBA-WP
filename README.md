@@ -30,12 +30,8 @@ The textbook we will use heavily is *Introduction to Statistical Learning*, and 
 - Textbook readings: --
 - Other readings:
 	- Lessons 4-6 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/).  You'll find lesson 5 a bit basic so feel free to breeze through that.  The main thing you need to take away from lesson 5 is the use of pipes (`%>%`) and the `summarize` function.    
-
-
 - Code: 
-	- [Example Rmd file](code/example.Rmd) 
-	- [Video tutorial of Rstudio and Rmarkdown](https://d2y36twrtb17ty.cloudfront.net/sessions/482c3219-8866-4a4c-bd99-af31010d035d/ace8beaa-c5f7-4211-b937-af31010d036d-20d525bd-49f7-410d-8e9d-af3101105ec5.mp4?invocationId=c08536fe-404e-ed11-a9ef-0a8e213f0382)
-- Data: --      
+- Data:       
 - [Discussion questions](discussions/week1.md)
 - [Assignment](assignments/week1.md)
 
