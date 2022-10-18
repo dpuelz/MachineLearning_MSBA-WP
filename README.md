@@ -32,7 +32,10 @@ The textbook we will use heavily is *Introduction to Statistical Learning*, and 
 - Code: 
 	- [Example data viz R script](code/datavis_intro.R)
 	- [Example data wrangling R script](code/nycflights_wrangle.R)
-- Data: [olympics_top20.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/MachineLearning_MSBA-WP/blob/main/data/olympics_top20.csv), [nycflights13.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/MachineLearning_MSBA-WP/blob/main/data/nycflights13.csv), and [TitanicSurvival.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/MachineLearning_MSBA-WP/blob/main/data/TitanicSurvival.csv)
+- Data: 
+	- [olympics_top20.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/MachineLearning_MSBA-WP/blob/main/data/olympics_top20.csv) 
+	- [nycflights13.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/MachineLearning_MSBA-WP/blob/main/data/nycflights13.csv)
+	- [TitanicSurvival.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/MachineLearning_MSBA-WP/blob/main/data/TitanicSurvival.csv)
 - [Discussion questions](discussions/week2.md)
 - [Assignment](assignments/week2.md)
 
