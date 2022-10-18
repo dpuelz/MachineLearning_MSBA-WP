@@ -8,7 +8,7 @@ The textbook we will use heavily is *Introduction to Statistical Learning*, and 
 
 ### Week 1: The Data Scientist Toolbox 
 
-- [Slides](slides/week1.pdf)
+- Introduction and toolbox [slides](slides/week1.pdf)
 - Textbook readings: *ISL* Ch. 1, 2.1, and 2.3.  In these readings, you will learn about the foundations of statistical learning and R as a coding language, including basic commands, graphics, and working with data sets in the R environment. **Goals:** get familiar with the language of machine learning and the basic structure and flow of R as a computing tool.
 - Other readings:
 	- [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
