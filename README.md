@@ -24,7 +24,7 @@ The textbook we will use heavily is *Introduction to Statistical Learning*, and 
 - [Discussion questions](discussions/week1.md)
 - [Assignment](assignments/week1.md)
 
-### Week 2: Data Visualization and Wrangling ([slides 1](slides/datavis.pdf)) & ([slides 2](slides/wrangling.pdf))
+### Week 2: Data Visualization and Wrangling
 
 - Data visualization [slides](slides/week2-dataviz.pdf) & data wrangling [slides](slides/week2-datawrangling.pdf)
 - Textbook readings: --
