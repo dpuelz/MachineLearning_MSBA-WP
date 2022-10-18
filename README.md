@@ -26,7 +26,7 @@ The textbook we will use heavily is *Introduction to Statistical Learning*, and 
 
 ### Week 2: Data Visualization and Wrangling ([slides 1](slides/datavis.pdf)) & ([slides 2](slides/wrangling.pdf))
 
-- Data visualization [slides](slides/week2-dataviz.pdf) & Data wrangling [slides](slides/week2-datawrangling.pdf)
+- Data visualization [slides](slides/week2-dataviz.pdf) & data wrangling [slides](slides/week2-datawrangling.pdf)
 - Textbook readings: --
 - Other readings:
 	- Lessons 4-6 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/).  You'll find lesson 5 a bit basic so feel free to breeze through that.  The main thing you need to take away from lesson 5 is the use of pipes (`%>%`) and the `summarize` function.    
