@@ -30,6 +30,8 @@ The textbook we will use heavily is *Introduction to Statistical Learning*, and 
 - Other readings:
 	- Lessons 4-6 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/).  You'll find lesson 5 a bit basic so feel free to breeze through that.  The main thing you need to take away from lesson 5 is the use of pipes (`%>%`) and the `summarize` function.    
 - Code: 
+	- [Example data viz R script](code/datavis_intro.R).
+	- [Example data wrangling R script](code/nycflights_wrangle.R).
 - Data:       
 - [Discussion questions](discussions/week2.md)
 - [Assignment](assignments/week2.md)
