@@ -4,7 +4,7 @@ This is the course page for STA380, an introductory course on machine learning f
 
 The textbook we will use heavily is *Introduction to Statistical Learning*, and it available for free in pdf form at the following [link](https://trevorhastie.github.io/ISLR/ISLR%20Seventh%20Printing.pdf).  This book will be referenced as *ISL* in the readings below.  For a more advanced (optional) book, we will use *Elements of Statistical Learning*, which is available at this [link](https://hastie.su.domains/Papers/ESLII.pdf).  This book will be referenced as *ESL* in the readings below.
 
-# Weekly assignments
+## Weekly assignments
 
 Each week there will be an assignment for you to work on individually and turned in as a report.  Prepare your report on the problems below using RMarkdown so that they are fully reproducible, carefully integrating visual and numerical evidence with prose.  You are welcome to discuss the problems with me or your classmates over canvas, but individual reports must be submitted.  The idea is for y'all to work together on all the problems and to learn from each other.
 
@@ -48,21 +48,21 @@ Please submit your final reports via Canvas under the "Assignments" tab as a kni
 
 ### Weeks 3-4: Probability ([slides](slides/PRL-probability.pdf))
 
-- Week 3: Definition and conditioning, independence
-- Week 4: Paradoxes, fallacies, and the rule of total probability
+#### Week 3: Definition and conditioning, independence
+#### Week 4: Paradoxes, fallacies, and the rule of total probability
 
 
 ### Weeks 5-7: Regression ([slides 1](slides/Sec1_Intro.pdf)), ([slides 2](slides/Sec2_Regression.pdf)), & ([slides 3](slides/naive_bayes_text.pdf))
 
-- Week 5: Bias-variance tradeoff, simple and multiple linear regression
-- Week 6: Dummy variables, transformations, variable selection and regularization
-- Week 7: Introduction to classification regression
+#### Week 5: Bias-variance tradeoff, simple and multiple linear regression
+#### Week 6: Dummy variables, transformations, variable selection and regularization
+#### Week 7: Introduction to classification regression
 
 
 ### Weeks  8-9: Trees: ([slides](slides/Sec4_Trees.pdf))
 
-- Week 8: Introduction to trees
-- Week 9: How to fit tree ensembles
+#### Week 8: Introduction to trees
+#### Week 9: How to fit tree ensembles
 
 
 ### Week 10: Resampling ([slides](slides/bootstrap_STA380.pdf))
