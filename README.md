@@ -12,7 +12,7 @@ Please submit your final reports via Canvas under the "Assignments" tab as a kni
 
 # Course structure
 
-### Week 1: The Data Scientist Toolbox 
+## Week 1: The Data Scientist Toolbox 
 
 - Introduction and toolbox [slides](slides/week1.pdf)
 - Textbook readings: *ISL* Ch. 1, 2.1, and 2.3.  In these readings, you will learn about the foundations of statistical learning and R as a coding language, including basic commands, graphics, and working with data sets in the R environment. **Goals:** get familiar with the language of machine learning and the basic structure and flow of R as a computing tool.
@@ -29,7 +29,7 @@ Please submit your final reports via Canvas under the "Assignments" tab as a kni
 - [Discussion questions](discussions/week1.md)
 - [Assignment](assignments/week1.md)
 
-### Week 2: Data Visualization and Wrangling
+## Week 2: Data Visualization and Wrangling
 
 - Data visualization [slides](slides/week2-dataviz.pdf) + data wrangling [slides](slides/week2-datawrangling.pdf)
 - Textbook readings: --
@@ -46,39 +46,39 @@ Please submit your final reports via Canvas under the "Assignments" tab as a kni
 - [Assignment](assignments/week2.md)
 
 
-### Weeks 3-4: Probability ([slides](slides/PRL-probability.pdf))
+## Weeks 3-4: Probability ([slides](slides/PRL-probability.pdf))
 
-#### Week 3: Definition and conditioning, independence
-#### Week 4: Paradoxes, fallacies, and the rule of total probability
-
-
-### Weeks 5-7: Regression ([slides 1](slides/Sec1_Intro.pdf)), ([slides 2](slides/Sec2_Regression.pdf)), & ([slides 3](slides/naive_bayes_text.pdf))
-
-#### Week 5: Bias-variance tradeoff, simple and multiple linear regression
-#### Week 6: Dummy variables, transformations, variable selection and regularization
-#### Week 7: Introduction to classification regression
+### Week 3: Definition and conditioning, independence
+### Week 4: Paradoxes, fallacies, and the rule of total probability
 
 
-### Weeks  8-9: Trees: ([slides](slides/Sec4_Trees.pdf))
+## Weeks 5-7: Regression ([slides 1](slides/Sec1_Intro.pdf)), ([slides 2](slides/Sec2_Regression.pdf)), & ([slides 3](slides/naive_bayes_text.pdf))
 
-#### Week 8: Introduction to trees
-#### Week 9: How to fit tree ensembles
-
-
-### Week 10: Resampling ([slides](slides/bootstrap_STA380.pdf))
+### Week 5: Bias-variance tradeoff, simple and multiple linear regression
+### Week 6: Dummy variables, transformations, variable selection and regularization
+### Week 7: Introduction to classification regression
 
 
-### Week 11: Clustering ([slides](slides/05-clustering.pdf))
+## Weeks  8-9: Trees: ([slides](slides/Sec4_Trees.pdf))
+
+### Week 8: Introduction to trees
+### Week 9: How to fit tree ensembles
 
 
-### Week 12: Principal Component Analysis ([slides](slides/06-PCA.pdf))
+## Week 10: Resampling ([slides](slides/bootstrap_STA380.pdf))
 
 
-### Week 13: Networks ([slides](slides/Networks.pdf))
+## Week 11: Clustering ([slides](slides/05-clustering.pdf))
 
 
-### Week 14: Text ([slides](slides/text_intro.pdf))
+## Week 12: Principal Component Analysis ([slides](slides/06-PCA.pdf))
 
 
-### Week 15: Causal ML ([slides](slides/causalML.pdf))
+## Week 13: Networks ([slides](slides/Networks.pdf))
+
+
+## Week 14: Text ([slides](slides/text_intro.pdf))
+
+
+## Week 15: Causal ML ([slides](slides/causalML.pdf))
 
