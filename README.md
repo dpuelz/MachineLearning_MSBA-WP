@@ -12,6 +12,8 @@ Please submit your final reports via Canvas under the "Assignments" tab as a kni
 
 # Course structure
 
+The grading for this course will be divided across the following categories: weekly assignments (40\%), weekly participation (20\%), and final project (40\%).  The weekly assignments must be turned in individually, although you are encouraged to work with classmates as you write up your own solutions.  Weekly participation includes submitting answers to the discussion questions and engaging with other students questions.  The final project is a larger version of our weekly assignments, and it can be completed in a group of up to 4 students.  
+
 ## Week 1: The Data Scientist Toolbox 
 
 - Introduction and toolbox [slides](slides/week1.pdf)
