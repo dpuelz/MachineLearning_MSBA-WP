@@ -4,6 +4,12 @@ This is the course page for STA380, an introductory course on machine learning f
 
 The textbook we will use heavily is *Introduction to Statistical Learning*, and it available for free in pdf form at the following [link](https://trevorhastie.github.io/ISLR/ISLR%20Seventh%20Printing.pdf).  This book will be referenced as *ISL* in the readings below.  For a more advanced (optional) book, we will use *Elements of Statistical Learning*, which is available at this [link](https://hastie.su.domains/Papers/ESLII.pdf).  This book will be referenced as *ESL* in the readings below.
 
+# Weekly assignments
+
+Each week there will be an assignment for you to work on individually and turned in as a report.  Prepare your report on the problems below using RMarkdown so that they are fully reproducible, carefully integrating visual and numerical evidence with prose.  You are welcome to discuss the problems with me or your classmates over canvas, but individual reports must be submitted.  The idea is for y'all to work together on all the problems and to learn from each other.
+
+Please submit your final reports via Canvas under the "Assignments" tab as a knitted pdf document.  No other document forms will be accepted.  
+
 # Course structure
 
 ### Week 1: The Data Scientist Toolbox 
