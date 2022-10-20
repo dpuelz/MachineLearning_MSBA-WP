@@ -48,7 +48,9 @@ The grading for this course will be divided across the following categories: wee
 - [Assignment](assignments/week2.md)
 
 
-## Weeks 3-4: Probability ([slides](slides/PRL-probability.pdf))
+## Weeks 3-4: Probability
+
+- Probability [slides](slides/week3.pdf) covering both weeks 3 and 4.
 
 ### Week 3: Definition and conditioning, independence
 ### Week 4: Paradoxes, fallacies, and the rule of total probability
