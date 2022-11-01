@@ -16,7 +16,7 @@ The grading for this course will be divided across the following categories: wee
 
 ## Week 1: The Data Scientist Toolbox 
 
-- Introduction and toolbox [slides](slides/week1.pdf)
+- Introduction and toolbox [slides](slides/week1_UT.pdf)
 - Textbook readings: *ISL* Ch. 1, 2.1, and 2.3.  In these readings, you will learn about the foundations of statistical learning and R as a coding language, including basic commands, graphics, and working with data sets in the R environment. **Goals:** get familiar with the language of machine learning and the basic structure and flow of R as a computing tool.
 - Other readings:
 	- [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
@@ -33,7 +33,7 @@ The grading for this course will be divided across the following categories: wee
 
 ## Week 2: Data Visualization and Wrangling
 
-- Data visualization [slides](slides/week2-dataviz.pdf) + data wrangling [slides](slides/week2-datawrangling.pdf)
+- Data visualization [slides](slides/week2-dataviz_UT.pdf) + data wrangling [slides](slides/week2-datawrangling.pdf)
 - Textbook readings: --
 - Other readings:
 	- Lessons 4-6 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/).  You'll find lesson 5 a bit basic so feel free to breeze through that.  The main thing you need to take away from lesson 5 is the use of pipes (`%>%`) and the `summarize` function.    
