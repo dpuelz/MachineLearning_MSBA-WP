@@ -26,9 +26,9 @@ Grading criteria:
 - Did you make any significant technical mistakes?
 
 
-# Pricing Cars (50 points)
+## Pricing Cars (50 points)
 
-Your job is very simple: based on the [cars_big.csv dataset, build a predictive model to price cars based on its features.  Describe step-by-step the supervised learning method you chose, the process for fitting this model, and the out-of-sample prediction errors your model generates.  Your grade on this problem will be 50\% presentation of your results and 50\% out-of-sample forecasting accuracy.  Remember that your solution should be fully reproducible, ie, I should be able to take your copy your code, fit the same model, and generate the same error distribution.
+Your job is very simple: based on the [cars_big.csv](../data/cars_big.csv) dataset, build a predictive model to price cars based on its features.  Describe step-by-step the supervised learning method you chose, the process for fitting this model, and the out-of-sample prediction errors your model generates.  Your grade on this problem will be 50\% presentation of your results and 50\% out-of-sample forecasting accuracy.  Remember that your solution should be fully reproducible, ie, I should be able to take your copy your code, fit the same model, and generate the same error distribution.
 
 ## Market segmentation (50 points)
 
