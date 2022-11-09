@@ -16,7 +16,7 @@ The grading for this course will be divided across the following categories: wee
 
 # Final project
 
-The final project is an extended set of exercises that synthesize all tools and methods we have learned in this course.
+The final project is an extended set of exercises that synthesize all tools and methods we have learned in this course.  You are encouraged to work in groups of up to 4 students, and each group only needs to turn in one copy of solutions.  The final project questions can be found [here](finalproject.md).
 
 ## Week 1: The Data Scientist Toolbox 
 
