@@ -1,4 +1,4 @@
 ## Week 1 discussion
 
-- What's the difference between R and python?  Discuss the the advantages and disadvantages of each for machine learning tasks, especially for statistical learning.
-- Show another student in class something cool you can do with R, ie, visualize some simulated data, write a for loop and print out the iterations, etc.
+- Describe in 150-200 words an example of how you've worked with data in the past.  What did the data set contain?  What software did you use to interact with it?  What questions were you tasked to answer with it?  Discuss the methods and results, ie, did you build a model, compute summary statistics, etc?  
+- Watch this video: https://www.youtube.com/watch?v=DGrszAeMZJI, and then this (more serious) video: https://www.youtube.com/watch?v=1gdKC5O0Pwc.  In your own words, how would you describe the difference between the two scripting languages, R and Python?  Discuss the the advantages and disadvantages of each for machine learning tasks, especially for statistical learning.  We are focusing on R for this class, so tell us what you're most looking forward to learning about (a R function, package, etc.) and why.
