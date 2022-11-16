@@ -1,6 +1,6 @@
 ## Week 2 discussion
 
-In the data visualization [slide deck](/slides/week2-dataviz.pdf), there are figures from major media outlets that are bad!  The slides are divided into six plotting pitfalls:
+In the data visualization [slide deck](../slides/week2-dataviz_UT.pdf), there are figures from major media outlets that are bad!  The slides are divided into six plotting pitfalls:
 
 1. Axis trickery
 2. Violations of basic math
