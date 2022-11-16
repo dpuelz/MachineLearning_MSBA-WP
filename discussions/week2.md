@@ -15,3 +15,4 @@ Please choose one figure in each of these plotting pitfall categories and answer
 - Why is it failing to convey this message?  What errors are made?
 - What is your proposed solution for fixing this bad figure?
 
+To summarize, your post on the discussion board should focus on six figures, and for each of these six, please answer the above questions.  
