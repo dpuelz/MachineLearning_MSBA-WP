@@ -15,4 +15,4 @@ Please choose one figure in each of these plotting pitfall categories and answer
 - Why is it failing to convey this message?  What errors are made?
 - What is your proposed solution for fixing this bad figure?
 
-To summarize, your post on the discussion board should focus on six figures, and for each of these six, please answer the above questions.  
+To summarize, your post on the discussion board should focus on six figures, and for each of these six, please answer the above questions.  Additionally, please give an example (screenshot, link, and/or verbal description) of a poorly designed data visualization.  For your own example, also include answers to the three questions above.
