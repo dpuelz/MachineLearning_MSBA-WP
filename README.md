@@ -57,6 +57,10 @@ The grading for this course will be divided across the following categories: wee
 - Probability [slides](slides/week3_UT.pdf) covering both weeks 3 and 4.
 
 ### Week 3: Definition and conditioning, independence
+
+- Textbook readings: --
+- Other readings: [Chapter 1 of these course notes.](./readings/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  There's a lot more technical stuff in here, but Chapter 1 really covers the basics of what every data scientist should know about probability. 
+
 ### Week 4: Paradoxes, fallacies, and the rule of total probability
 
 
