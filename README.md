@@ -54,7 +54,7 @@ The grading for this course will be divided across the following categories: wee
 
 ## Weeks 3-4: Probability
 
-- Probability [slides](slides/week3.pdf) covering both weeks 3 and 4.
+- Probability [slides](slides/week3_UT.pdf) covering both weeks 3 and 4.
 
 ### Week 3: Definition and conditioning, independence
 ### Week 4: Paradoxes, fallacies, and the rule of total probability
