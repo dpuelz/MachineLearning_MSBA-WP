@@ -1,18 +1,3 @@
-## Week 2 discussion
+## Week 4 discussion
 
-In the data visualization [slide deck](../slides/week2-dataviz_UT.pdf), there are figures from major media outlets that are bad!  The slides are divided into six plotting pitfalls:
-
-1. Axis trickery
-2. Violations of basic math
-3. Nearly content-free figures 
-4. Gratuitous chartjunk
-5. Poorly chosen 3D graphics 
-6. Bad design choices
-
-Please choose one figure in each of these plotting pitfall categories and answer the following questions:
-
-- What is the figure trying to convey?
-- Why is it failing to convey this message?  What errors are made?
-- What is your proposed solution for fixing this bad figure?
-
-To summarize, your post on the discussion board should focus on six figures, and for each of these six, please answer the above questions.  Additionally, please give an example (screenshot, link, and/or verbal description) of a poorly designed data visualization.  For your own example, also include answers to the three questions above.
+The paper \href{http://www.stat.columbia.edu/~gelman/research/published/rb_qjps.pdf}{Rich State, Poor State, Red State, Blue State: What's the Matter with Connecticut?} discusses the peculiar trend of Republican voting share's relationship to income within and among states.  See, for example, Figures 3 and 4 in the paper.  Without worrying about the modeling details, describe qualitatively what Figure 4 is showing (the different axes, open and solid circles, etc.).  Why are the lines different slopes on the left panel?  What other variables are potentially driving the difference in these slopes?  Please be as descriptive and specific as possible, either through additional quantitative evidence outside of the paper or developing a testable hypothesis.
