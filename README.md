@@ -60,8 +60,20 @@ The grading for this course will be divided across the following categories: wee
 
 - Textbook readings: --
 - Other readings: [Chapter 1 of these course notes.](./readings/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  There's a lot more technical stuff in here, but Chapter 1 really covers the basics of what every data scientist should know about probability. 
+- Code:
+	- [Simulating random variables](code/probability.R)
+- [Discussion questions](discussions/week3.md)
+- [Assignment](assignments/week3.md)
+
 
 ### Week 4: Paradoxes, fallacies, and the rule of total probability
+
+- Textbook readings: --
+- Other readings:  
+	- An excerpt from Chapter 7 of [AIQ: How People and Machines are Smarter Together](readings/AIQ_excerpt_contraceptive_effectiveness.pdf), by Nick Polson and James Scott.  
+	- [Rich State, Poor State, Red State, Blue State](http://www.stat.columbia.edu/~gelman/research/published/rb_qjps.pdf) and a shorter prelude to this article, [Gelman's blog](https://statmodeling.stat.columbia.edu/2005/11/07/income_matters/).
+- [Discussion questions](discussions/week4.md)
+- [Assignment](assignments/week4.md)
 
 
 ## Weeks 5-7: Regression ([slides 1](slides/Sec1_Intro.pdf)), ([slides 2](slides/Sec2_Regression.pdf)), & ([slides 3](slides/naive_bayes_text.pdf))
