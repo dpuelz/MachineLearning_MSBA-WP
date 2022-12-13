@@ -18,7 +18,9 @@ The final project is an extended set of exercises that synthesize all tools and 
 
 The grading for this course will be divided across the following categories: weekly assignments (40\%), weekly participation (20\%), and final project (40\%).  The weekly assignments must be turned in individually, although you are encouraged to work with classmates as you write up your own solutions.  Weekly participation includes submitting answers to the discussion questions and engaging with other students questions.  The final project is a larger version of our weekly assignments, and it can be completed in a group of up to 4 students.  
 
-## Week 1: The Data Scientist Toolbox 
+## Week 1: The Data Scientist Toolbox
+
+Overview: This week we will dive into our tools for the course.  These include the coding language R, and tool for writing beautiful reports with R code called RMarkdown.  At the end of this week, you should have installed R, the graphical user interface RStudio, and the accompanying software package RMarkdown.  Additionally, you should start getting comfortable with these tools as we will use them heavily throughout this course! 
 
 - Introduction and toolbox [slides](slides/week1_UT.pdf)
 - Textbook readings: *ISL* Ch. 1, 2.1, and 2.3.  In these readings, you will learn about the foundations of statistical learning and R as a coding language, including basic commands, graphics, and working with data sets in the R environment. **Goals:** get familiar with the language of machine learning and the basic structure and flow of R as a computing tool.
@@ -36,6 +38,8 @@ The grading for this course will be divided across the following categories: wee
 - [Assignment](assignments/week1.md)
 
 ## Week 2: Data Visualization and Wrangling
+
+Overview: This week focuses on key components of data analysis: visualization and wrangling.  We learn these concepts early in the course so they can be deployed effectively for our assignments, discussions, and other data tasks we undetake later on.  Visualization involves plotting data to effectively address a data science question or bolster an argument with evidence.  It is an art form that should be taken very seriously.  Wrangling 
 
 - Data visualization [slides](slides/week2-dataviz_UT.pdf) + data wrangling [slides](slides/week2-datawrangling_UT.pdf)
 - Textbook readings: --
