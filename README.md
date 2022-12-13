@@ -39,7 +39,7 @@ Overview: This week we will dive into our tools for the course.  These include t
 
 ## Week 2: Data Visualization and Wrangling
 
-Overview: This week focuses on key components of data analysis: visualization and wrangling.  We learn these concepts early in the course so they can be deployed effectively for our assignments, discussions, and other data tasks we undetake later on.  Visualization involves plotting data to effectively address a data science question or bolster an argument with evidence.  It is an art form that should be taken very seriously.  Wrangling 
+Overview: This week focuses on two crucial components of a data analysis: visualization and wrangling.  We learn these concepts early in the course so they can be deployed effectively for our assignments, discussions, and other data tasks we undetake later on.  Visualization involves plotting data to effectively address a data science question or bolster an argument with evidence.  It is an art form that should be taken very seriously.  Wrangling is an early stage of the data analysis pipeline where raw data needs to be manipulated into a certain form.  Concretely, wrangling is the process of morphing raw data into a tidy data frame with observations represented by the rows and variable represented by the columns.
 
 - Data visualization [slides](slides/week2-dataviz_UT.pdf) + data wrangling [slides](slides/week2-datawrangling_UT.pdf)
 - Textbook readings: --
