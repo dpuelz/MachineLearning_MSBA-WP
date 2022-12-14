@@ -74,3 +74,24 @@ Machine       Number of messages Failure Rate
 Suppose that we select one message at random from the pool of all
 1,500 messages but found out this message was not properly
 decoded. Which machine is most likely responsible for this mistake?
+
+## Question 5
+
+Write an R function that randomly configures the plugboard. This
+function will take no input but randomly selects a set of 13 pairs of
+letters.  The output object should be a $2 \times 13$ matrix for which
+each column represents a pair of letters.  You may use the built-in R
+object `letters`, which contains the 26 letters of the alphabet as a
+character vector.  Name the function `plugboard`.
+
+## Question 6
+
+Write an R function that encodes and decodes a message given a
+plugboard configuration set by the `plugboard` function from the
+previous question.  This function should take the output of the
+`plugboard` function as well as a message to be encoded (decoded) as
+inputs, and return an encoded (decoded) message.  You may wish to use
+the `gsub` function, which replaces a pattern in a character string
+with another specified pattern. The `tolower` function, which makes
+characters in a character vector lowercase, and `toupper` function,
+which capitalizes characters in a character vector, can also help.
