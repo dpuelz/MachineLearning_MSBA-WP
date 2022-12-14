@@ -1,6 +1,6 @@
 ## Week 3 assignment
 
-![The Enigma Machine,20%](pics/enigma.jpg)
+![The Enigma Machine](pics/enigma.jpg)
 
 The Enigma machine is the most famous cipher machine to date. Nazi
 Germany used it during World War II to encrypt messages so that
