@@ -2,9 +2,9 @@
 
 This is the course page for STA380, an introductory course on machine learning for students in the MS program in Business Analytics at UT-Austin. In the first half of the course, you'll learn about probability concepts and predictive models for labeled data (i.e. regression, or supervised learning). In the second half, we will turn to exploratory data analysis, resampling methods for uncertainty quantification, and unsupervised learning, i.e. learning to model structure in unlabeled data.
 
-The textbook we will use heavily is *Introduction to Statistical Learning*, and it available for free in pdf form at the following [link](https://trevorhastie.github.io/ISLR/ISLR%20Seventh%20Printing.pdf).  This book will be referenced as *ISL* in the readings below.  For a more advanced (optional) book, we will use *Elements of Statistical Learning*, which is available at this [link](https://hastie.su.domains/Papers/ESLII.pdf).  This book will be referenced as *ESL* in the readings below.
+The textbook we will use heavily is ***Introduction to Statistical Learning***, and it available for free in pdf form at the following [link](https://trevorhastie.github.io/ISLR/ISLR%20Seventh%20Printing.pdf).  This book will be referenced as *ISL* in the readings below.  For a more advanced (optional) book, we will use *Elements of Statistical Learning*, which is available at this [link](https://hastie.su.domains/Papers/ESLII.pdf).  This book will be referenced as *ESL* in the readings below.
 
-Additional readings and exercises occasionally come from *[Quantitative Social Science: An Introduction](https://press.princeton.edu/books/hardcover/9780691167039/quantitative-social-science)*.  This book is a great primer for many coding concepts and implementation in R. Please obtain a copy of this book for reference.  It will be referred to as *QSS* in the readings below.
+Additional readings and exercises occasionally come from ***[Quantitative Social Science: An Introduction](https://press.princeton.edu/books/hardcover/9780691167039/quantitative-social-science)***.  This book is a great primer for many coding concepts and implementation in R. Please obtain a copy of this book for reference.  It will be referred to as *QSS* in the readings below.
 
 ## Weekly assignments
 
