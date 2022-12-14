@@ -63,8 +63,8 @@ information, we do not know anything about the assignment of each
 message to a machine or whether the machine was able to correctly
 decode the message.
 
-Machine       Number of messages Failure Rate
-------------- ------------------ ------------
+Machine      | Number of messages| Failure Rate
+-------------  -----------------   -----------
 `Banburismus`                300          10%
 `Bombe`                      400           5%
 `Herivel`                    250          15%
