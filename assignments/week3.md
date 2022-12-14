@@ -1,10 +1,10 @@
 ## Week 3 assignment
 
+The purpose of this assignment is to practice 
+
 <p align="center">
 <img  src="pics/enigma.jpg">
 </p>
-
-![The Enigma Machine](pics/enigma.jpg)
 
 The Enigma machine is the most famous cipher machine to date. Nazi
 Germany used it during World War II to encrypt messages so that
@@ -42,3 +42,7 @@ plugboard configuration.
 
 How many different five-digit passcodes can be set out of the 5
 rotors?
+
+## Question 2
+
+How many possible configurations does the plugboard provide?  In other words, how many ways can 26 letters be divided into 13 pairs?
