@@ -65,11 +65,11 @@ decode the message.
 
 Machine      | Number of messages| Failure Rate
 -------------  -----------------   -----------
-`Banburismus`                300          10%
-`Bombe`                      400           5%
-`Herivel`                    250          15%
-`Crib`                       340          17%
-`Hut 6`                      210          20% 
+`Banburismus` |               300  |        10%
+`Bombe`       |               400  |         5%
+`Herivel`     |               250   |       15%
+`Crib`        |               340   |       17%
+`Hut 6`       |               210   |       20% 
 
 Suppose that we select one message at random from the pool of all
 1,500 messages but found out this message was not properly
