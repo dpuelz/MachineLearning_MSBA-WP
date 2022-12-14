@@ -46,3 +46,31 @@ rotors?
 ## Question 2
 
 How many possible configurations does the plugboard provide?  In other words, how many ways can 26 letters be divided into 13 pairs?
+
+## Question 3
+
+Based on the previous two questions, what is the total number of
+possible settings for the Little Enigma machine?
+
+## Question 4
+
+Five cryptanalytic machines have been developed to decode 1,500
+messages encrypted by the Little Enigma machine.  The table below
+presents information on the number of messages assigned to each
+machine and the machine's failure rate (i.e., the percentage of
+messages the machine was unable to decode).  Aside from this
+information, we do not know anything about the assignment of each
+message to a machine or whether the machine was able to correctly
+decode the message.
+
+Machine       Number of messages Failure Rate
+------------- ------------------ ------------
+`Banburismus`                300          10%
+`Bombe`                      400           5%
+`Herivel`                    250          15%
+`Crib`                       340          17%
+`Hut 6`                      210          20% 
+
+Suppose that we select one message at random from the pool of all
+1,500 messages but found out this message was not properly
+decoded. Which machine is most likely responsible for this mistake?
