@@ -1,6 +1,6 @@
 ## Week 3 assignment
 
-The purpose of this assignment is to practice counting probability computation, applying Bayes Law, and writing functions for simulation in R.
+The purpose of this assignment is to practice counting for probability computation, applying Bayes Law, and writing functions for simulation in R.  Below is a picture of The Enigma machine.
 
 <p align="center">
 <img  src="pics/enigma.jpg">

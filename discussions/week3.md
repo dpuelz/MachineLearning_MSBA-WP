@@ -1,9 +1,7 @@
 ## Week 3 discussion
 
-Bayes versus Frequentist Probability 
+In this discussion, we will learn about Bayesian versus Frequentist probability. First, please watch the following Youtube videos.  
 
-- Find youtube video discussion the difference qualitatively
-- Find online document discussing the difference
-- Students engage with both links, and write a summary of both ...
+1. 
 
 Which one are you??
