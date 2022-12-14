@@ -4,6 +4,8 @@ This is the course page for STA380, an introductory course on machine learning f
 
 The textbook we will use heavily is *Introduction to Statistical Learning*, and it available for free in pdf form at the following [link](https://trevorhastie.github.io/ISLR/ISLR%20Seventh%20Printing.pdf).  This book will be referenced as *ISL* in the readings below.  For a more advanced (optional) book, we will use *Elements of Statistical Learning*, which is available at this [link](https://hastie.su.domains/Papers/ESLII.pdf).  This book will be referenced as *ESL* in the readings below.
 
+Additional readings and exercises occasionally come from *[Quantitative Social Science: An Introduction](https://press.princeton.edu/books/hardcover/9780691167039/quantitative-social-science)*.  This book is a great primer for many coding concepts and implementation in R. Please obtain a copy of this book for reference.  It will be referred to as *QSS* in the readings below.
+
 ## Weekly assignments
 
 Each week there will be an assignment for you to work on individually and turned in as a report.  Prepare your report on the problems below using RMarkdown so that they are fully reproducible, carefully integrating visual and numerical evidence with prose.  You are welcome to discuss the problems with me or your classmates over canvas, but individual reports must be submitted.  The idea is for y'all to work together on all the problems and to learn from each other.
@@ -64,7 +66,7 @@ Overview: Probability is central to all things data science.  We use it to forma
 
 ### Week 3: Definition and conditioning, independence
 
-- Textbook readings: --
+- Textbook readings: *QSS* Ch. 6.1 - 6.3.  In these readings, you'll learn the basics of probability and simulation in R.
 - Other readings: [Chapter 1 of these course notes.](./readings/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  There's a lot more technical stuff in here, but Chapter 1 really covers the basics of what every data scientist should know about probability. 
 - Code:
 	- [Simulating random variables](code/probability.R)
