@@ -20,7 +20,7 @@ The grading for this course will be divided across the following categories: wee
 
 ## Week 1: The Data Scientist Toolbox
 
-Overview: This week we will dive into our tools for the course.  These include the coding language R, and tool for writing beautiful reports with R code called RMarkdown.  At the end of this week, you should have installed R, the graphical user interface RStudio, and the accompanying software package RMarkdown.  Additionally, you should start getting comfortable with these tools as we will use them heavily throughout this course! 
+Overview: This week we will learn about our tools for the course.  These include the coding language R, and a markup tool for writing beautiful reports with R code called RMarkdown.  At the end of this week, you should have installed R, the graphical user interface (GUI) RStudio, and the accompanying software package RMarkdown.  Additionally, you should start getting comfortable with these tools as we will use them heavily throughout this course! 
 
 - Introduction and toolbox [slides](slides/week1_UT.pdf)
 - Textbook readings: *ISL* Ch. 1, 2.1, and 2.3.  In these readings, you will learn about the foundations of statistical learning and R as a coding language, including basic commands, graphics, and working with data sets in the R environment. **Goals:** get familiar with the language of machine learning and the basic structure and flow of R as a computing tool.
@@ -39,7 +39,7 @@ Overview: This week we will dive into our tools for the course.  These include t
 
 ## Week 2: Data Visualization and Wrangling
 
-Overview: This week focuses on two crucial components of a data analysis: visualization and wrangling.  We learn these concepts early in the course so they can be deployed effectively for our assignments, discussions, and other data tasks we undetake later on.  Visualization involves plotting data to effectively address a data science question or bolster an argument with evidence.  It is an art form that should be taken very seriously.  Wrangling is an early stage of the data analysis pipeline where raw data needs to be manipulated into a certain form.  Concretely, wrangling is the process of morphing raw data into a tidy data frame with observations represented by the rows and variable represented by the columns.
+Overview: This week focuses on two crucial components of a data analysis: visualization and wrangling.  We learn these concepts early in our course so they can be deployed effectively for our assignments, discussions, and other data tasks we undertake later.  Visualization involves plotting data to effectively address a data science question or bolster an argument with evidence.  It is an art form that should be taken very seriously.  Wrangling is an early stage of the data analysis pipeline where raw data needs to be manipulated into a usable form.  Concretely, wrangling is the process of morphing raw data into a tidy data frame with observations represented by the rows and variables represented by the columns.
 
 - Data visualization [slides](slides/week2-dataviz_UT.pdf) + data wrangling [slides](slides/week2-datawrangling_UT.pdf)
 - Textbook readings: --
@@ -57,6 +57,8 @@ Overview: This week focuses on two crucial components of a data analysis: visual
 
 
 ## Weeks 3-4: Probability
+
+Overview: Probability is central to all things data science.  We use it to formalize uncertainty and discuss unknown model parameters estimated with data.  It characterizes the likely outcomes of future events.  Without it, there is no point in doing data science, artificial intelligence, or machine learning.  This section on probability is divided into an introduction, including notation and rules of conditioning and independence, and applications of these rules to common paradoxes and fallacies.  
 
 - Probability [slides](slides/week3_UT.pdf) covering both weeks 3 and 4.
 
