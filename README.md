@@ -87,6 +87,13 @@ Overview: Probability is central to all things data science.  We use it to forma
 ## Weeks 5-7: Regression ([slides 1](slides/Sec1_Intro.pdf)), ([slides 2](slides/Sec2_Regression.pdf)), & ([slides 3](slides/naive_bayes_text.pdf))
 
 ### Week 5: Bias-variance tradeoff, simple and multiple linear regression
+
+- Textbook readings: *ISL* Ch. ...  In these readings, you'll learn ...
+- Other readings: --
+- Code:
+- [Discussion questions](discussions/week5.md)
+- [Assignment](assignments/week5.md)
+
 ### Week 6: Dummy variables, transformations, variable selection and regularization
 ### Week 7: Introduction to classification regression
 
