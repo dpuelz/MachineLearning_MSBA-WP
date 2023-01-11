@@ -102,7 +102,7 @@ Overview: Probability is central to all things data science.  We use it to forma
 
 ### Week 7: Introduction to classification regression
 
-- Supervised learning [slides](slides/week7_UT.pdf)
+- Classification regression slides [slides](slides/week7_UT.pdf)
 - Textbook readings: 
 - Other readings: --
 - Code: 
