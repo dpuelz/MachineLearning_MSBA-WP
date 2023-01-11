@@ -25,7 +25,7 @@ The grading for this course will be divided across the following categories: wee
 Overview: This week we will learn about our tools for the course.  These include the coding language R, and a markup tool for writing beautiful reports with R code called RMarkdown.  At the end of this week, you should have installed R, the graphical user interface (GUI) RStudio, and the accompanying software package RMarkdown.  Additionally, you should start getting comfortable with these tools as we will use them heavily throughout this course! 
 
 - Introduction and toolbox [slides](slides/week1_UT.pdf)
-- Textbook readings: *ISL* Ch. 1, 2.1, and 2.3.  In these readings, you will learn about the foundations of statistical learning and R as a coding language, including basic commands, graphics, and working with data sets in the R environment. **Goals:** get familiar with the language of machine learning and the basic structure and flow of R as a computing tool.
+- Textbook readings: *ISL* Ch. 1 and 2.3.  In these readings, you will learn about the foundations of statistical learning and R as a coding language, including basic commands, graphics, and working with data sets in the R environment. **Goals:** get familiar with the language of machine learning and the basic structure and flow of R as a computing tool.
 - Other readings:
 	- [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
 	- [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)  
@@ -35,7 +35,6 @@ Overview: This week we will learn about our tools for the course.  These include
 - Code: 
 	- [Example Rmd file](code/example.Rmd) 
 	- [Video tutorial of Rstudio and Rmarkdown](https://d2y36twrtb17ty.cloudfront.net/sessions/482c3219-8866-4a4c-bd99-af31010d035d/ace8beaa-c5f7-4211-b937-af31010d036d-20d525bd-49f7-410d-8e9d-af3101105ec5.mp4?invocationId=c08536fe-404e-ed11-a9ef-0a8e213f0382)
-- Data: --
 - [Discussion questions](discussions/week1.md)
 - [Assignment](assignments/week1.md)
 
@@ -48,12 +47,8 @@ Overview: This week focuses on two crucial components of a data analysis: visual
 - Other readings:
 	- Lessons 4, 5, & 6 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/).  You'll find lesson 5 a bit basic so feel free to breeze through that.  The main thing you need to take away from lesson 5 is the use of pipes (`%>%`) and the `summarize` function.    
 - Code: 
-	- [Example data viz R script](code/datavis_intro.R)
+	- [Example data viz R script](code/datavis_intro.R) with data [olympics_top20.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/MachineLearning_MSBA-WP/blob/main/data/olympics_top20.csv) 
 	- [Example data wrangling R script](code/nycflights_wrangle.R)
-- Data: 
-	- [olympics_top20.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/MachineLearning_MSBA-WP/blob/main/data/olympics_top20.csv) 
-	- [nycflights13.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/MachineLearning_MSBA-WP/blob/main/data/nycflights13.csv)
-	- [TitanicSurvival.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/MachineLearning_MSBA-WP/blob/main/data/TitanicSurvival.csv)
 - [Discussion questions](discussions/week2.md)
 - [Assignment](assignments/week2.md)
 
@@ -88,14 +83,32 @@ Overview: Probability is central to all things data science.  We use it to forma
 
 ### Week 5: Bias-variance tradeoff, simple and multiple linear regression
 
-- Textbook readings: *ISL* Ch. ...  In these readings, you'll learn ...
+- Supervised learning [slides](slides/week5_UT.pdf)
+- Textbook readings: *ISL* Ch. 2.1 - 2.2 and Ch. 3.  In these readings, you'll learn about a key tradeoff between model interpretability and predictive accuracy.  In Ch. 3, you'll dive into a workhorse and first tool of a data scientist: Linear regression!
 - Other readings: --
-- Code:
+- Code: 
 - [Discussion questions](discussions/week5.md)
 - [Assignment](assignments/week5.md)
 
-### Week 6: Dummy variables, transformations, variable selection and regularization
+### Week 6: Dummy variables and model selection
+
+- Dummy variables and model selection [slides](slides/week6_UT.pdf)
+- Textbook readings: 
+- Other readings: --
+- Code: 
+- [Discussion questions](discussions/week6.md)
+- [Assignment](assignments/week6.md)
+
+
 ### Week 7: Introduction to classification regression
+
+- Supervised learning [slides](slides/week7_UT.pdf)
+- Textbook readings: 
+- Other readings: --
+- Code: 
+- [Discussion questions](discussions/week7.md)
+- [Assignment](assignments/week7.md)
+
 
 
 ## Weeks  8-9: Trees: ([slides](slides/Sec4_Trees.pdf))
