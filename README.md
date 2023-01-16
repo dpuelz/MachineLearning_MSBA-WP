@@ -79,7 +79,7 @@ Overview: Probability is central to all things data science.  We use it to forma
 - [Assignment](assignments/week4.md)
 
 
-## Weeks 5-7: Regression ([slides 1](slides/Sec1_Intro.pdf)), ([slides 2](slides/Sec2_Regression.pdf)), & ([slides 3](slides/naive_bayes_text.pdf))
+## Weeks 5-7: Regression 
 
 ### Week 5: Bias-variance tradeoff, simple and multiple linear regression
 
