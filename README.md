@@ -6,6 +6,8 @@ The textbook we will use heavily is ***Introduction to Statistical Learning***, 
 
 Additional readings and exercises occasionally come from ***Quantitative Social Science: An Introduction***, and here is the publisher's [link](https://press.princeton.edu/books/hardcover/9780691167039/quantitative-social-science).  This book is a great primer for many coding concepts and implementation in R. Please obtain a copy of this book for reference.  It will be referred to as *QSS* in the readings below.
 
+Occassionally, *ISL* and *QSS* exercises will be used for our assignments.  Thanks to the authors for providing these resources.
+
 ## Weekly assignments
 
 Each week there will be an assignment for you to work on individually and turned in as a report.  Prepare your report on the problems below using RMarkdown so that they are fully reproducible, carefully integrating visual and numerical evidence with prose.  You are welcome to discuss the problems with me or your classmates over canvas, but individual reports must be submitted.  The idea is for y'all to work together on all the problems and to learn from each other.
