@@ -1,3 +1,5 @@
-## Week 4 discussion
+## Week 5 discussion
 
-The paper [Rich State, Poor State, Red State, Blue State: What's the Matter with Connecticut?](http://www.stat.columbia.edu/~gelman/research/published/rb_qjps.pdf) discusses the peculiar trend of Republican voting share's relationship to income within and among states.  See, for example, Figures 3 and 4 in the paper.  Without worrying about the modeling details, describe qualitatively what Figure 4 is showing (the different axes, open and solid circles, etc.).  Why are the lines different slopes on the left panel?  What other variables are potentially driving the difference in these slopes?  Please be as descriptive and specific as possible, either through additional quantitative evidence outside of the paper or developing a testable hypothesis.
+1. Describe the bias-variance tradeoff in your own words.  What are its practical concerns, and how can we successfully navigate this tradeoff curve?  
+
+2. Imagine you're an engineer at Tesla, and you're designing the autopilot self-driving system.  Describe how this job is essentially designing a supervised learning model (be specific about the function you're trying to estimate as well as its input and output).  Discuss in detail why it is imperative to be aware of the bias-variance in this setting.  
