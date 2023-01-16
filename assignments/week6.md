@@ -1,13 +1,6 @@
-## Week 4 assignment
+## Week 6 assignment
 
-This assignment focuses on conditioning and the "mixture rule", ie, the rule of total probability.  
+This assignment revisits the [Auto](https://downgit.github.io/#/home?url=https://github.com/dpuelz/MachineLearning_MSBA-WP/blob/main/data/Auto.csv) data set we analyzed last week.  Specifically, we will focus on model selection.
 
-__Part A.__ Visitors to your website are asked to answer a single survey question before they get access to the content on the page. Among all of the users, there are two categories: Random Clicker (RC), and Truthful Clicker (TC). There are two possible answers to the survey: yes and no. Random clickers would click either one with equal probability. You are also giving the information that the expected fraction of random clickers is 0.3.  After a trial period, you get the following survey results: 65\% said Yes and 35\% said No.   What fraction of people who are truthful clickers answered yes?  Hint: use the rule of total probability.  
-
-__Part B.__ Imagine a medical test for a disease with the following two attributes:  
-
-- The sensitivity is about 0.993. That is, if someone has the disease, there is a probability of 0.993 that they will test positive.  
-- The specificity is about 0.9999. This means that if someone doesn't have the disease, there is probability of 0.9999 that they will test negative.  
-- In the general population, incidence of the disease is reasonably rare: about 0.0025% of all people have it (or 0.000025 as a decimal probability).
-
-Suppose someone tests positive. What is the probability that they have the disease?  
+1. Build a regression model for *mpg* as a function of all other variables except for *name*.  Include all plausible variables and interactions, especially nonlinear transformations of variables you believe are relevant.  Be greedy!  Fit this model with the *lm()* function and produce a summary output.  Comment on the coefficient values, predictions/residuals, and anything else you notice about the fit.  What location on the bias-variance tradeoff is this model?
+2. Do the same as above, but now use the *glmnet* package which includes LASSO and ridge regression to fit your model.  Report the optimal LASSO and ridge models.  How do they differ from the "unpenalized" linear model above?

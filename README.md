@@ -95,7 +95,7 @@ Overview: Probability is central to all things data science.  We use it to forma
 ### Week 6: Dummy variables and model selection
 
 - Dummy variables and model selection [slides](slides/week6_UT.pdf)
-- Textbook readings: 
+- Textbook readings: *QSS* readings on dummy variables ...
 - Other readings: --
 - Code: 
 - [Discussion questions](discussions/week6.md)
