@@ -30,15 +30,16 @@ Overview: This week we will learn about our tools for the course.  These include
 - Textbook readings: *ISL* Ch. 1 and 2.3.  In these readings, you will learn about the foundations of statistical learning and R as a coding language, including basic commands, graphics, and working with data sets in the R environment. **Goals:** get familiar with the language of machine learning and the basic structure and flow of R as a computing tool.
 - Other readings:
 	- [Introduction to RMarkdown](http://rmarkdown.rstudio.com)
-		- What are the advantages of this markup tool?
+		- What are the advantages of this markup tool relative to just turning in code?
 		- How is it useful for consolidating messy code and disjoint data analyses?  
 	- [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)
 		- What are the steps for creating a RMarkdown file?
 		- Describe how one should organize directories (folders) with data and code to make RMarkdown easily reproducible.  Put differently, what are common coding pitfalls/mistakes that make life hard?  
 	- [Introduction to GitHub](https://guides.github.com/activities/hello-world/) (optional)
-		-   
-	- [Getting starting with GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)  
-	- [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)     
+	- [Getting starting with GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop) (optional)
+	- [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)
+		- Describe the important steps for sharing data with a statistician.
+		- What should you expect in return?     
 - Code: 
 	- [Example Rmd file](code/example.Rmd) 
 	- [Video tutorial of Rstudio and Rmarkdown](https://d2y36twrtb17ty.cloudfront.net/sessions/482c3219-8866-4a4c-bd99-af31010d035d/ace8beaa-c5f7-4211-b937-af31010d036d-20d525bd-49f7-410d-8e9d-af3101105ec5.mp4?invocationId=c08536fe-404e-ed11-a9ef-0a8e213f0382)
@@ -52,7 +53,8 @@ Overview: This week focuses on two crucial components of a data analysis: visual
 - Data visualization [slides](slides/week2-dataviz_UT.pdf) + data wrangling [slides](slides/week2-datawrangling_UT.pdf)
 - Textbook readings: --
 - Other readings:
-	- Lessons 4, 5, & 6 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/).  You'll find lesson 5 a bit basic so feel free to breeze through that.  The main thing you need to take away from lesson 5 is the use of pipes (`%>%`) and the `summarize` function.    
+	- Lessons 4, 5, & 6 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/).  You'll find lesson 5 a bit basic so feel free to breeze through that.  
+		- Why are pipes (`%>%`) useful and how do they operate? 
 - Code: 
 	- [Example data viz R script](code/datavis_intro.R) with data [olympics_top20.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/MachineLearning_MSBA-WP/blob/main/data/olympics_top20.csv) 
 	- [Example data wrangling R script](code/nycflights_wrangle.R)
