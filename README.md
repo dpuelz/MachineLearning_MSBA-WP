@@ -54,7 +54,9 @@ Overview: This week focuses on two crucial components of a data analysis: visual
 - Textbook readings: --
 - Other readings:
 	- Lessons 4, 5, & 6 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/).  You'll find lesson 5 a bit basic so feel free to breeze through that.  
-		- Why are pipes (`%>%`) useful and how do they operate? 
+		- What are the fundamental plots for data, and what type of data can be visulized with each? 
+		- Why are pipes (`%>%`) useful and how do they operate?
+		- Where does data wrangling fit in a data analysis pipeline, and why is it so important to get right?
 - Code: 
 	- [Example data viz R script](code/datavis_intro.R) with data [olympics_top20.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/MachineLearning_MSBA-WP/blob/main/data/olympics_top20.csv) 
 	- [Example data wrangling R script](code/nycflights_wrangle.R)
@@ -70,8 +72,11 @@ Overview: Probability is central to all things data science.  We use it to forma
 
 ### Week 3: Definition and conditioning, independence
 
-- Textbook readings: *QSS* Ch. 6.1 - 6.3.  In these readings, you'll learn the basics of probability and simulation in R.
-- Other readings: [Chapter 1 of these course notes.](./readings/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  There's a lot more technical stuff in here, but Chapter 1 really covers the basics of what every data scientist should know about probability. 
+- Textbook readings: *QSS* Ch. 6.1 - 6.3.
+	- What is conditional probability?  Provide a real-life example of conditional probability.
+	- What are random variables, and how are they related to probability?
+	- How can you simulate from probability distributions in R?
+- Other readings: [Chapter 1 of these course notes.](./readings/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  There's a lot more technical stuff in here, but Chapter 1 really covers the basics of what every data scientist should know about probability. (optional)
 - Code:
 	- [Simulating random variables](code/probability.R)
 - [Discussion questions](discussions/week3.md)
