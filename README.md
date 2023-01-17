@@ -75,7 +75,7 @@ Overview: Probability is central to all things data science.  We use it to forma
 - Textbook readings: *QSS* Ch. 6.1 - 6.3.
 	- What is conditional probability?  Provide a real-life example of conditional probability.
 	- What are random variables, and how are they related to probability?
-	- How can you simulate from probability distributions in R?
+	- How do you simulate from probability distributions in R?
 - Other readings: [Chapter 1 of these course notes.](./readings/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  There's a lot more technical stuff in here, but Chapter 1 really covers the basics of what every data scientist should know about probability. (optional)
 - Code:
 	- [Simulating random variables](code/probability.R)
@@ -87,8 +87,13 @@ Overview: Probability is central to all things data science.  We use it to forma
 
 - Textbook readings: --
 - Other readings:  
-	- An excerpt from Chapter 7 of [AIQ: How People and Machines are Smarter Together](readings/AIQ_excerpt_contraceptive_effectiveness.pdf), by Nick Polson and James Scott.  
+	- An excerpt from Chapter 7 of [AIQ: How People and Machines are Smarter Together](readings/AIQ_excerpt_contraceptive_effectiveness.pdf), by Nick Polson and James Scott. 
+		- What is the compounding rule of probability?
+		- What fatal mistake did the New York Times make when calculating the long-term failure rate of birth control? 
 	- [Rich State, Poor State, Red State, Blue State](http://www.stat.columbia.edu/~gelman/research/published/rb_qjps.pdf) and a shorter prelude to this article, [Gelman's blog](https://statmodeling.stat.columbia.edu/2005/11/07/income_matters/).
+		- What is the prevailing belief of the relation between a state's wealth and political ideaology?
+		- What does the data actually show when looking at state-level and individual-level trends in wealth and political ideaology?
+		- What is the aggregation paradox?
 - [Discussion questions](discussions/week4.md)
 - [Assignment](assignments/week4.md)
 
