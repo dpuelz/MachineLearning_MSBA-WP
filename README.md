@@ -100,10 +100,15 @@ Overview: Probability is central to all things data science.  We use it to forma
 
 ## Weeks 5-7: Regression 
 
+Overview: The next three weeks are focused on supervised learning.  This basically means modeling/estimating a relationship between a specific outcome variable and set of associated input variables.  We will first discuss a fundamental tradeoff of statistical model building that relates model complexity to its predicitive performance.  Then, we will discuss dummy variables and their important role in regression modeling as well as develop tools for navigating the bias-variance tradeoff.  Finally, we will develop approaches for modeling binary and categorical outcomes using classification regression.
+
 ### Week 5: Bias-variance tradeoff, simple and multiple linear regression
 
 - Supervised learning [slides](slides/week5_UT.pdf)
 - Textbook readings: *ISL* Ch. 2.1 - 2.2 and Ch. 3.  In these readings, you'll learn about a key tradeoff between model interpretability and predictive accuracy.  In Ch. 3, you'll dive into a workhorse and first tool of a data scientist: Linear regression!
+	- Describe intuitively why the bias-variance tradeoff interpolates between model complexity and predictive ability
+	- What are the assumptions of a linear regression model?
+	- How do you estimate the parameters of a linear regression model and how are they interpreted?
 - Other readings: --
 - Code: 
 - [Discussion questions](discussions/week5.md)
