@@ -29,9 +29,14 @@ Overview: This week we will learn about our tools for the course.  These include
 - Introduction and toolbox [slides](slides/week1_UT.pdf)
 - Textbook readings: *ISL* Ch. 1 and 2.3.  In these readings, you will learn about the foundations of statistical learning and R as a coding language, including basic commands, graphics, and working with data sets in the R environment. **Goals:** get familiar with the language of machine learning and the basic structure and flow of R as a computing tool.
 - Other readings:
-	- [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
-	- [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)  
-	- [Introduction to GitHub](https://guides.github.com/activities/hello-world/)   
+	- [Introduction to RMarkdown](http://rmarkdown.rstudio.com)
+		- What are the advantages of this markup tool?
+		- How is it useful for consolidating messy code and disjoint data analyses?  
+	- [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)
+		- What are the steps for creating a RMarkdown file?
+		- Describe how one should organize directories (folders) with data and code to make RMarkdown easily reproducible.  Put differently, what are common coding pitfalls/mistakes that make life hard?  
+	- [Introduction to GitHub](https://guides.github.com/activities/hello-world/) (optional)
+		-   
 	- [Getting starting with GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)  
 	- [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)     
 - Code: 
