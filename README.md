@@ -42,7 +42,6 @@ Overview: This week we will learn about our tools for the course.  These include
 		- What should you expect in return?     
 - Code: 
 	- [Example Rmd file](code/example.Rmd) 
-	- [Video tutorial of Rstudio and Rmarkdown](https://d2y36twrtb17ty.cloudfront.net/sessions/482c3219-8866-4a4c-bd99-af31010d035d/ace8beaa-c5f7-4211-b937-af31010d036d-20d525bd-49f7-410d-8e9d-af3101105ec5.mp4?invocationId=c08536fe-404e-ed11-a9ef-0a8e213f0382)
 - [Discussion questions](discussions/week1.md)
 - [Assignment](assignments/week1.md)
 
@@ -117,7 +116,13 @@ Overview: The next three weeks are focused on supervised learning.  This basical
 ### Week 6: Dummy variables and model selection
 
 - Dummy variables and model selection [slides](slides/week6_UT.pdf)
-- Textbook readings: *QSS* readings on dummy variables ...
+- Textbook readings: *QSS* Ch. 2.1 - 2.2 and *ISL* Ch. 6.1 - 6.2
+	- Define a binary or dummy variable. (*QSS*)
+	- How are dummy variables related to logical statements? (*QSS*)
+	- How are dummy variables created in R? (*QSS*)
+	- Describe the differences and similarities between subset selection methods and shrinkage methods for regularization and model selection. (*ISL*)
+	- What is the difference between LASSO and ridge regression? (*ISL*)
+	- What is the "solution path", and how is it used to determine the "optimal model"? (*ISL*)
 - Other readings: --
 - Code: 
 - [Discussion questions](discussions/week6.md)
@@ -127,8 +132,15 @@ Overview: The next three weeks are focused on supervised learning.  This basical
 ### Week 7: Introduction to classification regression
 
 - Classification regression [slides](slides/week7_UT.pdf)
-- Textbook readings: 
-- Other readings: --
+- Textbook readings: *ISL* Ch. 4.1 - 4.3
+	- Why not just fit a linear regression model to a binary outcome?
+	- What is the logistic regression model and how does it constrain the outcome to be between 0 and 1?
+	- How do you interpret coefficient in a logistic regression model?
+- Other readings: short set of [slides](slides/naive_bayes_text.pdf) on Naive Bayes with text data.
+	- What is the "naive" assumption of Naive Bayes, and why does it work so well in practice?
+	- How is Naive Bayes used for classification?
+	- How does Naive Bayes use conditional probability?
+	- What are the key differences between Naive Bayes and classification regression?
 - Code: 
 - [Discussion questions](discussions/week7.md)
 - [Assignment](assignments/week7.md)
