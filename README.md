@@ -132,6 +132,9 @@ Overview: The next three weeks are focused on supervised learning.  This basical
 
 - Dummy variables and model selection [slides](slides/week6_UT.pdf)
 	- Give an example of how dummy variables are used in regression models?
+	- How many dummy variables need to be created to represent a 5-level categorical variable?
+	- How do the geometries of the Ridge and LASSO penalties affect the shrinkage of regression coefficients?
+	- Can LASSO coefficients be exactly zero?  Provide evidence why or why not?
 - Textbook readings: *QSS* Ch. 2.1 - 2.2 and *ISL* Ch. 6.1 - 6.2
 	- Define a binary or dummy variable. (*QSS*)
 	- How are dummy variables related to logical statements? (*QSS*)
@@ -148,6 +151,9 @@ Overview: The next three weeks are focused on supervised learning.  This basical
 ### Week 7: Introduction to classification regression
 
 - Classification regression [slides](slides/week7_UT.pdf)
+	- What are the statistical metrics that measure a logistic regression predictive performance?
+	- How is log-odds defined?
+	- What is a link function, and what is it "linking" exactly?
 - Textbook readings: *ISL* Ch. 4.1 - 4.3
 	- Why not just fit a linear regression model to a binary outcome?
 	- What is the logistic regression model and how does it constrain the outcome to be between 0 and 1?
