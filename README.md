@@ -91,6 +91,7 @@ Overview: Probability is central to all things data science.  We use it to forma
 - Other readings: [Chapter 1 of these course notes.](./readings/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  There's a lot more technical stuff in here, but Chapter 1 really covers the basics of what every data scientist should know about probability. (optional)
 - Code:
 	- [Simulating random variables](code/probability.R)
+		- What is the naming convention in R for built-in probability distributions and random variable simulation?
 - [Discussion questions](discussions/week3.md)
 - [Assignment](assignments/week3.md)
 
