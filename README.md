@@ -27,10 +27,12 @@ The grading for this course will be divided across the following categories: wee
 Overview: This week we will learn about our tools for the course.  These include the coding language R, and a markup tool for writing beautiful reports with R code called RMarkdown.  At the end of this week, you should have installed R, the graphical user interface (GUI) RStudio, and the accompanying software package RMarkdown.  Additionally, you should start getting comfortable with these tools as we will use them heavily throughout this course! 
 
 - Introduction and toolbox [slides](slides/week1_UT.pdf)
+	- What is the structure of this course?
+	- What is the difference between supervised and unsupervised learning?
 - Textbook readings: *ISL* Ch. 1 and 2.3.  In these readings, you will learn about the foundations of statistical learning and R as a coding language, including basic commands, graphics, and working with data sets in the R environment. **Goals:** get familiar with the language of machine learning and the basic structure and flow of R as a computing tool.
 - Other readings:
 	- [Introduction to RMarkdown](http://rmarkdown.rstudio.com)
-		- What are the advantages of this markup tool relative to just turning in code?
+		- What are the advantages of this markup tool relative to just turning in raw code?
 		- How is it useful for consolidating messy code and disjoint data analyses?  
 	- [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)
 		- What are the steps for creating a RMarkdown file?
@@ -42,6 +44,8 @@ Overview: This week we will learn about our tools for the course.  These include
 		- What should you expect in return?     
 - Code: 
 	- [Example Rmd file](code/example.Rmd) 
+		- What is the basic structure of an Rmd file?
+		- How do you embed code and figures among prose?
 - [Discussion questions](discussions/week1.md)
 - [Assignment](assignments/week1.md)
 
@@ -50,6 +54,9 @@ Overview: This week we will learn about our tools for the course.  These include
 Overview: This week focuses on two crucial components of a data analysis: visualization and wrangling.  We learn these concepts early in our course so they can be deployed effectively for our assignments, discussions, and other data tasks we undertake later.  Visualization involves plotting data to effectively address a data science question or bolster an argument with evidence.  It is an art form that should be taken very seriously.  Wrangling is an early stage of the data analysis pipeline where raw data needs to be manipulated into a usable form.  Concretely, wrangling is the process of morphing raw data into a tidy data frame with observations represented by the rows and variables represented by the columns.
 
 - Data visualization [slides](slides/week2-dataviz_UT.pdf) + data wrangling [slides](slides/week2-datawrangling_UT.pdf)
+	- Why is data visualization so important?
+	- Describe an example data wrangling task and how it's broken down into steps.
+	- Why is dividing up a wrangling task into simple steps so important? (video)
 - Textbook readings: --
 - Other readings:
 	- Lessons 4, 5, & 6 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/).  You'll find lesson 5 a bit basic so feel free to breeze through that.  
@@ -59,6 +66,8 @@ Overview: This week focuses on two crucial components of a data analysis: visual
 - Code: 
 	- [Example data viz R script](code/datavis_intro.R) with data [olympics_top20.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/MachineLearning_MSBA-WP/blob/main/data/olympics_top20.csv) 
 	- [Example data wrangling R script](code/nycflights_wrangle.R)
+		- How do you use piping to wrangle data and answer a complex question?
+		- How do you group by more than one variable and mutate variables to other forms?
 - [Discussion questions](discussions/week2.md)
 - [Assignment](assignments/week2.md)
 
@@ -68,6 +77,10 @@ Overview: This week focuses on two crucial components of a data analysis: visual
 Overview: Probability is central to all things data science.  We use it to formalize uncertainty and discuss unknown model parameters estimated with data.  It characterizes the likely outcomes of future events.  Without it, there is no point in doing data science, artificial intelligence, or machine learning.  This probability section is divided into an introduction, including notation and rules of conditioning and independence, and applications of these rules to common paradoxes and fallacies.  Understanding probability is the data scientist's secret weapon.  While computer science + engineering versions of machine learning training gloss over these concepts, you will have a solid grasp of them.  Further, it will put you ahead of these folks because you know how to characterize and interpret statistical uncertainty.
 
 - Probability [slides](slides/week3_UT.pdf) covering both weeks 3 and 4.
+	- Give an example of how you use conditional probability in your day-to-day life. (video)
+	- When is the independence assumption reasonable, and when does it fail? (video)
+	- Why is the rule of total probability sometimes referred to as "the mixture rule"? (video)
+	- What is the aggregation paradox and how does it relate to Simpson's paradox? (video)
 
 ### Week 3: Definition and conditioning, independence
 
@@ -104,6 +117,8 @@ Overview: The next three weeks are focused on supervised learning.  This basical
 ### Week 5: Bias-variance tradeoff, simple and multiple linear regression
 
 - Supervised learning [slides](slides/week5_UT.pdf)
+	- What is the difference between an outcome variable and input variables and how are they related?
+	- Describe the defining feature of a supervised learning task. (video)
 - Textbook readings: *ISL* Ch. 2.1 - 2.2 and Ch. 3.  In these readings, you'll learn about a key tradeoff between model interpretability and predictive accuracy.  In Ch. 3, you'll dive into a workhorse and first tool of a data scientist: Linear regression!
 	- Describe intuitively why the bias-variance tradeoff interpolates between model complexity and predictive ability
 	- What are the assumptions of a linear regression model?
@@ -116,6 +131,7 @@ Overview: The next three weeks are focused on supervised learning.  This basical
 ### Week 6: Dummy variables and model selection
 
 - Dummy variables and model selection [slides](slides/week6_UT.pdf)
+	- Give an example of how dummy variables are used in regression models?
 - Textbook readings: *QSS* Ch. 2.1 - 2.2 and *ISL* Ch. 6.1 - 6.2
 	- Define a binary or dummy variable. (*QSS*)
 	- How are dummy variables related to logical statements? (*QSS*)
