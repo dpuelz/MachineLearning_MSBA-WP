@@ -173,7 +173,21 @@ Overview: The next three weeks are focused on supervised learning.  This basical
 ## Weeks  8-9: Trees: ([slides](slides/Sec4_Trees.pdf))
 
 ### Week 8: Introduction to trees
+
+- Classification regression [slides](slides/week8_UT.pdf)
+- Textbook readings: *ISL* Ch. 8
+- Code: 
+- [Discussion questions](discussions/week8.md)
+- [Assignment](assignments/week8.md)
+
+
 ### Week 9: How to fit tree ensembles
+
+- Classification regression [slides](slides/week9_UT.pdf)
+- Textbook readings: *ISL* Ch. 8
+- Code: 
+- [Discussion questions](discussions/week9.md)
+- [Assignment](assignments/week9.md)
 
 
 ## Week 10: Resampling ([slides](slides/bootstrap_STA380.pdf))
