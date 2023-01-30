@@ -174,7 +174,7 @@ Overview: The next three weeks are focused on supervised learning.  This basical
 
 ### Week 8: Introduction to trees
 
-- Classification regression [slides](slides/week8_UT.pdf)
+- Introduction [slides](slides/week8_UT.pdf)
 - Textbook readings: *ISL* Ch. 8
 - Code: 
 - [Discussion questions](discussions/week8.md)
@@ -183,7 +183,7 @@ Overview: The next three weeks are focused on supervised learning.  This basical
 
 ### Week 9: How to fit tree ensembles
 
-- Classification regression [slides](slides/week9_UT.pdf)
+- Model fitting approaches and details [slides](slides/week9_UT.pdf)
 - Textbook readings: *ISL* Ch. 8
 - Code: 
 - [Discussion questions](discussions/week9.md)
