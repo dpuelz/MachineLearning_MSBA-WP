@@ -174,8 +174,15 @@ Overview: This section focuses on a powerful technique for supervised learning r
 ### Week 8: Introduction to trees
 
 - Introduction [slides](slides/week8_UT.pdf)
-	- 
+	- How are regression trees represented?
+	- What defines the structure of a regression tree?
+	- How does a tree split on continuous and categorical variables?
+	- How does the depth of a tree relate to the bias-variance tradeoff? 
 - Textbook readings: *ISL* Ch. 8.1
+	- What is the process of "tree pruning"?
+	- How does a regresson tree incorporate interactions between input variables?
+	- How are predictions generate from a tree fit?
+	- How are regression trees different from linear models?
 - [Discussion questions](discussions/week8.md)
 - [Assignment](assignments/week8.md)
 
