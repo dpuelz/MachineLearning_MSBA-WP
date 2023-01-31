@@ -174,7 +174,8 @@ Overview: This section focuses on a powerful technique for supervised learning r
 ### Week 8: Introduction to trees
 
 - Introduction [slides](slides/week8_UT.pdf)
-- Textbook readings: *ISL* Ch. 8
+	- 
+- Textbook readings: *ISL* Ch. 8.1
 - [Discussion questions](discussions/week8.md)
 - [Assignment](assignments/week8.md)
 
@@ -182,7 +183,7 @@ Overview: This section focuses on a powerful technique for supervised learning r
 ### Week 9: How to fit tree ensembles
 
 - Model fitting approaches and details [slides](slides/week9_UT.pdf)
-- Textbook readings: *ISL* Ch. 8
+- Textbook readings: *ISL* Ch. 8.2
 - [Discussion questions](discussions/week9.md)
 - [Assignment](assignments/week9.md)
 
