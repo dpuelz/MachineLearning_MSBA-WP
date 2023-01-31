@@ -167,7 +167,7 @@ Overview: The next three weeks are focused on supervised learning.  This basical
 - [Assignment](assignments/week7.md)
 
 
-## Weeks  8-9: Trees: ([slides](slides/Sec4_Trees.pdf))
+## Weeks  8-9: Trees
 
 Overview: This section focuses on a powerful technique for supervised learning relying on the technology of "trees".  While simple to visualize, regression trees are powerful tools for capturing interactions and nonlinearities in data.  Further, when ensembled together, combinations of trees are one of the most competitive predictive modeling methods available.
 
