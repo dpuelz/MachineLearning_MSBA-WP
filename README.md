@@ -194,9 +194,9 @@ Overview: This section focuses on a powerful technique for supervised learning r
 	- How does the bias-variance tradeoff appear in this setting, i.e., what notion of model complexity needs to be controlled?
 	- What is boosting, bagging, and random forest modeling?
 - Textbook readings: *ISL* Ch. 8.2
-	- What is the general idea of the bootstrap (*ISL* Ch.5), and how is it used to build and ensemble decision trees?
+	- What is the general idea of the bootstrap (*ISL* Ch.5), and how is it used to build and ensemble decision trees?  Why does it lead to improved predictions?
 	- How do you measure variable importance with trees?
-	- Describe the boosting algorithm for regression trees?
+	- Describe the boosting algorithm for regression trees.
 - [Discussion questions](discussions/week9.md)
 - [Assignment](assignments/week9.md)
 
