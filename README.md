@@ -190,7 +190,13 @@ Overview: This section focuses on a powerful technique for supervised learning r
 ### Week 9: How to fit tree ensembles
 
 - Model fitting approaches and details [slides](slides/week9_UT.pdf)
+	- Why does ensembling lead to better fitting models?
+	- How does the bias-variance tradeoff appear in this setting, i.e., what notion of model complexity needs to be controlled?
+	- What is boosting, bagging, and random forest modeling?
 - Textbook readings: *ISL* Ch. 8.2
+	- What is the general idea of the bootstrap (*ISL* Ch.5), and how is it used to build and ensemble decision trees?
+	- How do you measure variable importance with trees?
+	- Describe the boosting algorithm for regression trees?
 - [Discussion questions](discussions/week9.md)
 - [Assignment](assignments/week9.md)
 
