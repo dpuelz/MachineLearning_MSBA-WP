@@ -143,8 +143,6 @@ Overview: The next three weeks are focused on supervised learning.  This basical
 	- Describe the differences and similarities between subset selection methods and shrinkage methods for regularization and model selection. (*ISL*)
 	- What is the difference between LASSO and ridge regression? (*ISL*)
 	- What is the "solution path", and how is it used to determine the "optimal model"? (*ISL*)
-- Other readings: --
-- Code: 
 - [Discussion questions](discussions/week6.md)
 - [Assignment](assignments/week6.md)
 
@@ -171,13 +169,12 @@ Overview: The next three weeks are focused on supervised learning.  This basical
 
 ## Weeks  8-9: Trees: ([slides](slides/Sec4_Trees.pdf))
 
-Overview: This section focuses on a powerful technique for supervised learning relying on the technology of "trees".  While simple to visualize, regression trees are powerful tools for capturing interactions and nonlinearities in data.  Further, when ensembled together, trees are one of the most competitive predictive modeling methods available.
+Overview: This section focuses on a powerful technique for supervised learning relying on the technology of "trees".  While simple to visualize, regression trees are powerful tools for capturing interactions and nonlinearities in data.  Further, when ensembled together, combinations of trees are one of the most competitive predictive modeling methods available.
 
 ### Week 8: Introduction to trees
 
 - Introduction [slides](slides/week8_UT.pdf)
 - Textbook readings: *ISL* Ch. 8
-- Code: 
 - [Discussion questions](discussions/week8.md)
 - [Assignment](assignments/week8.md)
 
@@ -186,7 +183,6 @@ Overview: This section focuses on a powerful technique for supervised learning r
 
 - Model fitting approaches and details [slides](slides/week9_UT.pdf)
 - Textbook readings: *ISL* Ch. 8
-- Code: 
 - [Discussion questions](discussions/week9.md)
 - [Assignment](assignments/week9.md)
 
