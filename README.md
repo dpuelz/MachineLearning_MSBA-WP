@@ -204,9 +204,18 @@ Overview: This section focuses on a powerful technique for supervised learning r
 ## Week 10: Resampling
 
 - Quantifying uncertainty and the bootstrap [slides](slides/week10_UT.pdf)
+	- Why do we care about quantifying uncertainty?
+	- What does sampling variability actually mean?  Describe in the context of a sampling distribution.
+	- How does the bootstrap approximate sampling variability?
 - Textbook readings: *ISL* Ch. 5.2
+	- How does the bootstrap relate to calculating investment portfolio risk?
+	- Why is sampling with replacement important?
+	- When might the bootstrap not be a reliable way of calculating sampling variability?
 - Other readings:
 	- For the assignment, you will need to refer to any basic explanation of the concept of value at risk (VaR) for a financial portfolio, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf). 
+		- What are the two quantities that need to be specified in order to define VaR?
+		- How does VaR differ from a standard measures of portfolio risk like standard deviation of portfolio return?
+		- Describe how VaR is used to managed risk in the financial sector.
 	- Lessons 8 and 9 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/)
 - Code: 
 	- [Two examples of bootstrap resampling, one simple and one complex](code/bootstrap.R)
