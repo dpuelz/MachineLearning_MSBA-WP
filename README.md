@@ -217,6 +217,10 @@ Overview: This section focuses on a powerful technique for supervised learning r
 		- How does VaR differ from a standard measures of portfolio risk like standard deviation of portfolio return?
 		- Describe how VaR is used to managed risk in the financial sector.
 	- Lessons 8 and 9 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/)
+		- What are different sources of statistical uncertainty?
+		- What are the important "moments" of the sampling distribution?
+		- What are "bootstrap gotchas"?
+		- When does bootstrap not work?
 - Code: 
 	- [Two examples of bootstrap resampling, one simple and one complex](code/bootstrap.R)
 	- [Code demonstration for portfolio risk modeling](code/portfolio.R)
