@@ -201,8 +201,18 @@ Overview: This section focuses on a powerful technique for supervised learning r
 - [Assignment](assignments/week9.md)
 
 
-## Week 10: Resampling ([slides](slides/bootstrap_STA380.pdf))
+## Week 10: Resampling
 
+- Quantifying uncertainty and the bootstrap [slides](slides/week10_UT.pdf)
+- Textbook readings: *ISL* Ch. 5.2
+- Other readings:
+	- For the assignment, you will need to refer to any basic explanation of the concept of value at risk (VaR) for a financial portfolio, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf). 
+	- Lessons 8 and 9 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/)
+- Code: 
+	- [Two examples of bootstrap resampling, one simple and one complex](code/bootstrap.R)
+	- [Code demonstration for portfolio risk modeling](code/portfolio.R)
+- [Discussion questions](discussions/week10.md)
+- [Assignment](assignments/week10.md)
 
 ## Week 11: Clustering ([slides](slides/05-clustering.pdf))
 
