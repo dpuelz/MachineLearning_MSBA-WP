@@ -223,7 +223,13 @@ Overview: This section focuses on a powerful technique for supervised learning r
 		- When does bootstrap not work?
 - Code: 
 	- [Two examples of bootstrap resampling, one simple and one complex](code/bootstrap.R)
+		- How do you bootstrap uncertainty for simple sample quantities, like the mean?
+		- How can the above be extended for my complex sample quantities, liek regression functions?
+		- What are the computational bottlenecks to bootstrapping, i.e., when can the bootstrap become prohibitvely slow?
 	- [Code demonstration for portfolio risk modeling](code/portfolio.R)
+		- Describe how the bootstrap is useful for calculating portfolio risk?
+		- What layering of loops is needed for computing portfolio value uncertainty at the end of an investor's time horizon?
+		- Why do all asset returns need to be resampled jointly, i.e., all at once?
 - [Discussion questions](discussions/week10.md)
 - [Assignment](assignments/week10.md)
 
