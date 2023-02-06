@@ -233,8 +233,18 @@ Overview: This section focuses on a powerful technique for supervised learning r
 - [Discussion questions](discussions/week10.md)
 - [Assignment](assignments/week10.md)
 
-## Week 11: Clustering ([slides](slides/05-clustering.pdf))
+## Week 11: Clustering
 
+- K-means and hierarchical clustering [slides](slides/week11_UT.pdf)
+- Textbook readings: *ISL* Ch. 10.1 and 10.3 or *ESL* Chapter 14.3 (more advanced)    
+- Other readings:  
+	- K-means++ [original paper](http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf) or [simple explanation on Wikipedia](https://en.wikipedia.org/wiki/K-means%2B%2B).  This is a better recipe for initializing cluster centers in k-means than the more typical random initialization.
+- Code:
+	- [cars.R](R/cars.R) and [cars.csv](data/cars.csv) 
+	- [hclust_examples.R](R/hclust_examples.R)   
+	- [linkage_minmax.R](R/linkage_minmax.R) 
+- [Discussion questions](discussions/week11.md)
+- [Assignment](assignments/week11.md)
 
 ## Week 12: Principal Component Analysis ([slides](slides/06-PCA.pdf))
 

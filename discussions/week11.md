@@ -1,0 +1,3 @@
+## Week 11 discussion
+
+Why is clustering an unsupervised learning task?  What are desirable features of a clustering?  How do K-means and hierarchical clustering differ in their algorithms and outputs?  Lastly, even though we have left supervised learning, there is something like the bias-variance tradeoff here.  Please write a couple sentences on where this tradeoff exists in the clustering world.
