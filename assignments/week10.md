@@ -6,7 +6,7 @@ Portfolio modeling!  In this problem, you will construct three different portfol
 
 Suppose you have $100,000 in capital.  Your task is to:  
 - Construct two different possibilities for an ETF-based portfolio, each involving an allocation of your $100,000 in capital to somewhere between 3 and 10 different ETFs.  You can find a [big database of ETFs here.](https://etfdb.com/etfdb-categories/)  
-- Download the last five years of daily data on your chosen ETFs, using the functions in the `quantmod` package, as we used in class.   Note: make sure to choose ETFs for which at least five years of data are available.  There are tons of ETFs and some are quite new!  
+- Download the last five years of daily data on your chosen ETFs, using the functions in the `quantmod` package.   Note: make sure to choose ETFs for which at least five years of data are available.  There are tons of ETFs and some are quite new!  
 - Use bootstrap resampling to estimate the 4-week (20 trading day) value at risk of each of your three portfolios at the 5% level.  
 - Write a report summarizing your portfolios and your VaR findings.  
 
