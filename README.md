@@ -240,7 +240,11 @@ Overview: This section focuses on a powerful technique for supervised learning r
 	- What is the main drawback of default k-means, and how does k-means++ remedy this problem?
 	- What are some best practices for selecting "k", the number of clusters in the k-means algorith?
 	- Describe hiearchical clustering, and how is it different from k-means?
-- Textbook readings: *ISL* Ch. 10.1 and 10.3 or *ESL* Chapter 14.3 (more advanced)    
+- Textbook readings: *ISL* Ch. 10.1 and 10.3 or *ESL* Chapter 14.3 (more advanced)
+	- What is a distance function and why is it needed for clustering?
+	- Describe within and between cluster variation and why they are useful metrics?
+	- When does the k-means algorithm terminate?
+	- What are the different linkage functions used for hiearchical clustering, and what are their pros/cons?    
 - Other readings:  
 	- K-means++ [original paper](http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf) or [simple explanation on Wikipedia](https://en.wikipedia.org/wiki/K-means%2B%2B).  This is a better recipe for initializing cluster centers in k-means than the more typical random initialization.
 - Code:
