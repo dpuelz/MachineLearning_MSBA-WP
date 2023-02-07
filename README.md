@@ -248,9 +248,16 @@ Overview: This section focuses on a powerful technique for supervised learning r
 - Other readings:  
 	- K-means++ [original paper](http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf) or [simple explanation on Wikipedia](https://en.wikipedia.org/wiki/K-means%2B%2B).  This is a better recipe for initializing cluster centers in k-means than the more typical random initialization.
 - Code:
-	- [cars.R](R/cars.R) and [cars.csv](data/cars.csv) 
-	- [hclust_examples.R](R/hclust_examples.R)   
-	- [linkage_minmax.R](R/linkage_minmax.R) 
+	- [cars.R](code/cars.R) and [cars.csv](data/cars.csv) 
+		- How is k-means applied to clustering cars?
+		- Why is it important to center and scale covariates before clustering?
+	- [hclust_examples.R](code/hclust_examples.R)   
+		- How do you run hierarchical clustering in R?
+		- Given a hierarchy, what functions are used to "cut" a tree to give a specified number of clusters? 
+	- [linkage_minmax.R](code/linkage_minmax.R) 
+		- How is 2-D Gaussian data simulated in R?
+		- How do the complete, single, and max linkage functions change the data clusterings?
+		- Which linkage function is a good all-purpose choice?
 - [Discussion questions](discussions/week11.md)
 - [Assignment](assignments/week11.md)
 
