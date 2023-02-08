@@ -240,7 +240,7 @@ Overview: This section focuses on a powerful technique for supervised learning r
 	- What is the main drawback of default k-means, and how does k-means++ remedy this problem?
 	- What are some best practices for selecting "k", the number of clusters in the k-means algorith?
 	- Describe hiearchical clustering, and how is it different from k-means?
-- Textbook readings: *ISL* Ch. 10.1 and 10.3 or *ESL* Chapter 14.3 (more advanced)
+- Textbook readings: *ISL* Ch. 10.1 and 10.3 or *ESL* Ch. 14.3 (more advanced)
 	- What is a distance function and why is it needed for clustering?
 	- Describe within and between cluster variation and why they are useful metrics?
 	- When does the k-means algorithm terminate?
@@ -261,7 +261,18 @@ Overview: This section focuses on a powerful technique for supervised learning r
 - [Discussion questions](discussions/week11.md)
 - [Assignment](assignments/week11.md)
 
-## Week 12: Principal Component Analysis ([slides](slides/06-PCA.pdf))
+## Week 12: Principal Component Analysis
+
+- PCA [slides](slides/week12_UT.pdf)
+- Textbook readings: *ISL* Ch. 10.2 for the basics or *ESL* Ch. 14.5 (more advanced)  
+- Other readings:  
+- Code:
+	- [pca_intro.R](R/pca_intro.R)  
+	- [nbc.R](R/nbc.R), [nbc_showdetails.csv](data/nbc_showdetails.csv), [nbc_pilotsurvey.csv](data/nbc_pilotsurvey.csv)  
+	- [congress109.R](R/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv)  
+	- [ercot_PCA.R](R/ercot_PCA.R), [ercot.zip](data/ercot.zip)  
+- [Discussion questions](discussions/week12.md)
+- [Assignment](assignments/week12.md)
 
 
 ## Week 13: Networks ([slides](slides/Networks.pdf))
