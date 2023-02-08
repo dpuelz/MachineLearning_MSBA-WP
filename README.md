@@ -267,10 +267,14 @@ Overview: This section focuses on a powerful technique for supervised learning r
 - Textbook readings: *ISL* Ch. 10.2 for the basics or *ESL* Ch. 14.5 (more advanced)  
 - Other readings:  
 - Code:
-	- [pca_intro.R](R/pca_intro.R)  
-	- [nbc.R](R/nbc.R), [nbc_showdetails.csv](data/nbc_showdetails.csv), [nbc_pilotsurvey.csv](data/nbc_pilotsurvey.csv)  
-	- [congress109.R](R/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv)  
-	- [ercot_PCA.R](R/ercot_PCA.R), [ercot.zip](data/ercot.zip)  
+	- [pca_intro.R](code/pca_intro.R)  
+	- [nbc.R](code/nbc.R), [nbc_showdetails.csv](data/nbc_showdetails.csv), [nbc_pilotsurvey.csv](data/nbc_pilotsurvey.csv)  
+	- [congress109.R](code/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv)  
+	- [ercot_PCA.R](code/ercot_PCA.R), [ercot.zip](data/ercot.zip)
+- More examples of code we might not get to:
+	- [FXmonthly.R](code/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt)    
+	- [NCI60.R](code/NCI60.R)   
+	- [gasoline.R](code/gasoline.R) and [gasoline.csv](data/gasoline.csv)   
 - [Discussion questions](discussions/week12.md)
 - [Assignment](assignments/week12.md)
 
