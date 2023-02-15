@@ -203,6 +203,8 @@ Overview: This section focuses on a powerful technique for supervised learning r
 
 ## Week 10: Resampling
 
+Overview: This module focuses on a key aspect of data science: Understanding uncertainty.  If statistical uncertainty is not well understood, reliable data-driven decisions will not be made.  Resampling and bootstrapping data provide a simple, all-purpose solution for characterizing sampling variability and will be the focus of this section. 
+
 - Quantifying uncertainty and the bootstrap [slides](slides/week10_UT.pdf)
 	- Why do we care about quantifying uncertainty?
 	- What does sampling variability actually mean?  Describe in the context of a sampling distribution.
@@ -235,6 +237,8 @@ Overview: This section focuses on a powerful technique for supervised learning r
 
 ## Week 11: Clustering
 
+Overview: In this module, we will turn to our first unsupervised learning technique in clustering.  There will be a focus on desirable features for clustering, algorithmic techniques for finding a data clustering, and best-practice guidelines for choosing the number of clusters.
+
 - K-means and hierarchical clustering [slides](slides/week11_UT.pdf)
 	- What is the purpose of "clustering" data?
 	- What is the main drawback of default k-means, and how does k-means++ remedy this problem?
@@ -263,6 +267,8 @@ Overview: This section focuses on a powerful technique for supervised learning r
 
 ## Week 12: Principal Components Analysis
 
+Overview: Principal components analysis is an unsupervised learning alternative to clustering.  Instead of determing a discrete classification of data, PCA represents each data point as a continuous mixture of "fundamental dimensions".  We will learn how to find these dimensions and mixture weights using intuitive examples.  Then, we will practice using and interpreting PCA in real-life applications.
+
 - PCA [slides](slides/week12_UT.pdf)
 	- How is PCA different from clustering?
 	- What's the difference between the scores and principal components?  How are they related?
@@ -287,7 +293,7 @@ Overview: This section focuses on a powerful technique for supervised learning r
 		- Describe the importance of PCA in "contrasting" dimensions of the column-space.
 - More examples of code we might not get to:
 	- [FXmonthly.R](code/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt) / [NCI60.R](code/NCI60.R) /[gasoline.R](code/gasoline.R) and [gasoline.csv](data/gasoline.csv)   
-		- How is PCA applied to financial data?    
+		- How is PCA used in other settings, including financial data?    
 - [Discussion questions](discussions/week12.md)
 - [Assignment](assignments/week12.md)
 
