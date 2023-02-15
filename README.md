@@ -277,11 +277,11 @@ Overview: Principal components analysis is an unsupervised learning alternative 
 	- What are some useful plots for determining the right number of summary dimensions?
 	- What is the relationship between PCA and the eigenvalue decomposition?
 - Code:
-	- [pca_intro.R](code/pca_intro.R)  
+	- [PCA intro code](code/pca_intro.R)  
 		- How does PCA work in practice?
 		- When determining principal component directions, what is being "maximally" preserved?
 		- How is PCA related to linear algebra and vector spaces?
-	- [nbc.R](code/nbc.R), [nbc_showdetails.csv](data/nbc_showdetails.csv), [nbc_pilotsurvey.csv](data/nbc_pilotsurvey.csv 
+	- [Surveys of NBC shows](code/nbc.R), [nbc_showdetails.csv](data/nbc_showdetails.csv), [nbc_pilotsurvey.csv](data/nbc_pilotsurvey.csv 
 		- What is the row-centric and column-centric view of a PCA?
 		- How does one interpret the one-number-summaries for each observation on each principal component?
 		- Describe how these summaries relate to "data compression".
@@ -298,21 +298,42 @@ Overview: Principal components analysis is an unsupervised learning alternative 
 - [Assignment](assignments/week12.md)
 
 
-## Week 13: Networks ([slides](slides/Networks.pdf))
+## Week 13: Networks
 
 Overview: Data points are usually connected with each other in some way, e.g. social networks, street networks, disease spread, corporate hierarchy, ... .  Most of the time, these connections are disregarded.  However, if information on these links is gathered, data analyses can be much richer.  In this module, we will set up the notation and language of "networked" data and how to use this underlying information for data science tasks.
 
+- Networks [slides](slides/week13_UT.pdf)
+- Software you'll need: [Gephi](https://gephi.org/), a great piece of software for exploring graphs and [The Gephi quick-start tutorial](https://gephi.org/tutorials/gephi-tutorial-quick_start.pdf)
+- Code:
+	- [medici.R](code/medici.R) and [medici.txt](data/medici.txt)  
+	- [playlists.R](code/playlists.R) and [playlists.csv](data/playlists.csv)    
+- [Discussion questions](discussions/week13.md)
+- [Assignment](assignments/week13.md)
 
-## Week 14: Text ([slides](slides/text_intro.pdf))
+## Week 14: Text data
 
 Overview: There is a tremendous amount of information in raw text.  From speeches to emails to books and journal articles, it's natural for data scientists to wonder how to capture this content for modeling tasks.  This module will describe the text-to-data pipeline, data structures for text, and touch on modeling approaches that bring in topics from previous modules.
 
+- Text as data [slides](slides/week14_UT.pdf)
+- Code:
+	- [tm_examples.R](code/tm_examples.R) and [selections from the Reuters newswire](https://github.com/dpuelz/MachineLearning_MSBA-WP/tree/main/data/ReutersC50)  
+	- [smallbeer.R](code/smallbeer.R) and [smallbeer.csv](data/smallbeer.csv)  
+- [Discussion questions](discussions/week14.md)
+- [Assignment](assignments/week14.md)
 
-## Week 15: Causal ML ([slides](slides/causalML.pdf))
+
+## Week 15: Causal ML
 
 Overview: Understanding causality with data is one of the most illusive tasks a data scientist can undertake.  What exactly is a cause-effect question?  Is the data your investigating this question with observational or experimental?  Are you controlling for appropriate "confounders"?  This module will address these questions with a focus on the latest techniques in machine learning.  The best supervised learning techniques for prediction can be used for causal inference *if* they are deployed in the right way!
 
-
+- Causal machine learning [slides](slides/week15_UT.pdf)
+- Code:
+	- [BART example](code/makeBARTsim.R)
+	- [Freakonomics example, crime and abortion](code/levitt.R)
+Other readings:
+	- [Gender Gaps in Performance: Evidence from Young Lawyers](readings/gendergap_lawyers.pdf) and [Statistical Analysis of Gender Patterns in Walmart Workforce](readings/walmart.pdf) + [Appendix](readings/walmart_appendix.pdf)
+- [Discussion questions](discussions/week15.md)
+- [Assignment](assignments/week15.md)
 
 
 
