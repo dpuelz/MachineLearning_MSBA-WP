@@ -330,8 +330,6 @@ Overview: Understanding causality with data is one of the most illusive tasks a 
 - Code:
 	- [BART example](code/makeBARTsim.R)
 	- [Freakonomics example, crime and abortion](code/levitt.R)
-Other readings:
-	- [Gender Gaps in Performance: Evidence from Young Lawyers](readings/gendergap_lawyers.pdf) and [Statistical Analysis of Gender Patterns in Walmart Workforce](readings/walmart.pdf) + [Appendix](readings/walmart_appendix.pdf)
 - [Discussion questions](discussions/week15.md)
 - [Assignment](assignments/week15.md)
 
