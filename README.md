@@ -331,7 +331,7 @@ Overview: Understanding causality with data is one of the most illusive tasks a 
 	- [BART example](code/makeBARTsim.R)
 	- [Freakonomics example, crime and abortion](code/levitt.R)
 - [Discussion questions](discussions/week15.md)
-- [Assignment](assignments/week15.md)
+- Assignment: None for this week since it's our last!
 
 
 
