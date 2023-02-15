@@ -261,20 +261,33 @@ Overview: This section focuses on a powerful technique for supervised learning r
 - [Discussion questions](discussions/week11.md)
 - [Assignment](assignments/week11.md)
 
-## Week 12: Principal Component Analysis
+## Week 12: Principal Components Analysis
 
 - PCA [slides](slides/week12_UT.pdf)
-- Textbook readings: *ISL* Ch. 10.2 for the basics or *ESL* Ch. 14.5 (more advanced)  
-- Other readings:  
+	- How is PCA different from clustering?
+	- What's the difference between the scores and principal components?  How are they related?
+- Textbook readings: *ISL* Ch. 10.2 for the basics or *ESL* Ch. 14.5 (more advanced)
+	- How should you interpret the output of a PCA?
+	- What are some useful plots for determining the right number of summary dimensions?
+	- What is the relationship between PCA and the eigenvalue decomposition?
 - Code:
 	- [pca_intro.R](code/pca_intro.R)  
-	- [nbc.R](code/nbc.R), [nbc_showdetails.csv](data/nbc_showdetails.csv), [nbc_pilotsurvey.csv](data/nbc_pilotsurvey.csv)  
-	- [congress109.R](code/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv)  
+		- How does PCA work in practice?
+		- When determining principal component directions, what is being "maximally" preserved?
+		- How is PCA related to linear algebra and vector spaces?
+	- [nbc.R](code/nbc.R), [nbc_showdetails.csv](data/nbc_showdetails.csv), [nbc_pilotsurvey.csv](data/nbc_pilotsurvey.csv 
+		- What is the row-centric and column-centric view of a PCA?
+		- How does one interpret the one-number-summaries for each observation on each principal component?
+		- Describe how these summaries relate to "data compression".
+	- [congress109.R](code/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv) 
+		- Describe how PCA is used to summarize text data?
+		- Do data from congressional speeches accurately separate representatives into political parties?
 	- [ercot_PCA.R](code/ercot_PCA.R), [ercot.zip](data/ercot.zip)
+		- How can PCA be applied to temperature and spatial data?
+		- Describe the importance of PCA in "contrasting" dimensions of the column-space.
 - More examples of code we might not get to:
-	- [FXmonthly.R](code/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt)    
-	- [NCI60.R](code/NCI60.R)   
-	- [gasoline.R](code/gasoline.R) and [gasoline.csv](data/gasoline.csv)   
+	- [FXmonthly.R](code/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt) / [NCI60.R](code/NCI60.R) /[gasoline.R](code/gasoline.R) and [gasoline.csv](data/gasoline.csv)   
+		- How is PCA applied to financial data?    
 - [Discussion questions](discussions/week12.md)
 - [Assignment](assignments/week12.md)
 
