@@ -300,9 +300,22 @@ Overview: Principal components analysis is an unsupervised learning alternative 
 
 ## Week 13: Networks ([slides](slides/Networks.pdf))
 
+Overview: Data points are usually connected with each other in some way, e.g. social networks, street networks, disease spread, corporate hierarchy, ... .  Most of the time, these connections are disregarded.  However, if information on these links is gathered, data analyses can be much richer.  In this module, we will set up the notation and language of "networked" data and how to use this underlying information for data science tasks.
+
 
 ## Week 14: Text ([slides](slides/text_intro.pdf))
 
+Overview: There is a tremendous amount of information in raw text.  From speeches to emails to books and journal articles, it's natural for data scientists to wonder how to capture this content for modeling tasks.  This module will describe the text-to-data pipeline, data structures for text, and touch on modeling approaches that bring in topics from previous modules.
+
 
 ## Week 15: Causal ML ([slides](slides/causalML.pdf))
+
+Overview: Understanding causality with data is one of the most illusive tasks a data scientist can undertake.  What exactly is a cause-effect question?  Is the data your investigating this question with observational or experimental?  Are you controlling for appropriate "confounders"?  This module will address these questions with a focus on the latest techniques in machine learning.  The best supervised learning techniques for prediction can be used for causal inference *if* they are deployed in the right way!
+
+
+
+
+
+
+
 
