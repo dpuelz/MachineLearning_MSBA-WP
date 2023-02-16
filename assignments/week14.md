@@ -2,7 +2,7 @@
 
 ### The Reuters corpus  
 
-Revisit the Reuters C50 text corpus that we briefly explored in class.  Your task is simple: tell an interesting story, anchored in some analytical tools we have learned in this class, using this data.  For example:  
+Revisit the Reuters [C50 text corpus](../data/ReutersC50) that we briefly explored in class.  Your task is simple: tell an interesting story, anchored in some analytical tools we have learned in this class, using this data.  For example:  
 - you could cluster authors or documents and tell a story about what you find.    
 - you could look for common factors using PCA.    
 - you could train a predictive model and assess its accuracy.  (Yes, this is a supervised learning task, but it potentially draws on a lot of what you know about unsupervised learning, since constructing features for a document might involve dimensionality reduction.)  
