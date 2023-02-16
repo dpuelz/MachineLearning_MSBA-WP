@@ -300,13 +300,22 @@ Overview: Principal components analysis is an unsupervised learning alternative 
 
 ## Week 13: Networks
 
-Overview: Data points are usually connected with each other in some way, e.g. social networks, street networks, disease spread, corporate hierarchy, ... .  Most of the time, these connections are disregarded.  However, if information on these links is gathered, data analyses can be much richer.  In this module, we will set up the notation and language of "networked" data and how to use this underlying information for data science tasks.
+Overview: Data points are usually connected with each other in some way, e.g. social networks, street networks, disease spread, corporate hierarchy, ... .  Most of the time, these connections are disregarded.  However, if information on these links is gathered, data analyses can be much richer.  In this module, we will set up the notation and language of "networked" data and discuss how we might use this underlying information for data science tasks.
 
 - Networks [slides](slides/week13_UT.pdf)
+	- How are networks represented mathematically?
+	- What are association rules, and how do they relate to probability?
+	- How can you generate network connections in data using conditional probabilities?
 - Software you'll need: [Gephi](https://gephi.org/), a great piece of software for exploring graphs and [The Gephi quick-start tutorial](https://gephi.org/tutorials/gephi-tutorial-quick_start.pdf)
+	- Why might we prefer Gephi compared to other graph visualization tools?
+	- What are useful visualization features that Gephi provides?
 - Code:
-	- [medici.R](code/medici.R) and [medici.txt](data/medici.txt)  
-	- [playlists.R](code/playlists.R) and [playlists.csv](data/playlists.csv)    
+	- [medici.R](code/medici.R) and [medici.txt](data/medici.txt)
+		- How does the igraph package work in R?
+		- What are some useful functions for summarizing a graph?  
+	- [playlists.R](code/playlists.R) and [playlists.csv](data/playlists.csv)
+		- How does the arules package work in R?
+		- What is a typical output of an association rules analysis, and how do you create a network from it?    
 - [Discussion questions](discussions/week13.md)
 - [Assignment](assignments/week13.md)
 
@@ -315,9 +324,18 @@ Overview: Data points are usually connected with each other in some way, e.g. so
 Overview: There is a tremendous amount of information in raw text.  From speeches to emails to books and journal articles, it's natural for data scientists to wonder how to capture this content for modeling tasks.  This module will describe the text-to-data pipeline, data structures for text, and touch on modeling approaches that bring in topics from previous modules.
 
 - Text as data [slides](slides/week14_UT.pdf)
+	- Describe the process of converting raw text to a usable data structure.
+	- What are tokens and what is tokenization?
+	- What are the common data types for text?
+	- What is the document term matrix, and what are common transformations of it?
 - Code:
-	- [tm_examples.R](code/tm_examples.R) and [selections from the Reuters newswire](https://github.com/dpuelz/MachineLearning_MSBA-WP/tree/main/data/ReutersC50)  
+	- [tm_examples.R](code/tm_examples.R) and [selections from the Reuters newswire](https://github.com/dpuelz/MachineLearning_MSBA-WP/tree/main/data/ReutersC50)
+		- How do you process text data in R?
+		- How do you transform a DTM with term frequency and inverse-document frequency weighting in R?
 	- [smallbeer.R](code/smallbeer.R) and [smallbeer.csv](data/smallbeer.csv)  
+		- How would you convert raw text descriptions of beers into variables for regression analysis?
+		- What regression model of quantity on price can provide an estimate of "price elasticity"?
+		- Describe how including text interactions modulates the price elasticity of beer.
 - [Discussion questions](discussions/week14.md)
 - [Assignment](assignments/week14.md)
 
@@ -327,9 +345,16 @@ Overview: There is a tremendous amount of information in raw text.  From speeche
 Overview: Understanding causality with data is one of the most illusive tasks a data scientist can undertake.  What exactly is a cause-effect question?  Is the data your investigating this question with observational or experimental?  Are you controlling for appropriate "confounders"?  This module will address these questions with a focus on the latest techniques in machine learning.  The best supervised learning techniques for prediction can be used for causal inference *if* they are deployed in the right way!
 
 - Causal machine learning [slides](slides/week15_UT.pdf)
+	- What is a typical causal question, and how can we use regression to answer it?
+	- What happens to treatment effect estimates when too many control variables are added to the model?
+	- What is regularization-induced confounding?
+	- What nonlinear regression models can be used for treatment effect estimation?
 - Code:
 	- [BART example](code/makeBARTsim.R)
+		- How is a BART model fit in R?
 	- [Freakonomics example, crime and abortion](code/levitt.R)
+		- What is the effect of abortion on future crime?
+		- What happens to the treatment effect when you include many more controls and use an appropriately designed ML method?
 - [Discussion questions](discussions/week15.md)
 - Assignment: None for this week since it's our last!
 
