@@ -372,6 +372,9 @@ Overview: Understanding causality with data is one of the most illusive tasks a 
 	- What happens to treatment effect estimates when too many control variables are added to the model?
 	- What is regularization-induced confounding?
 	- What nonlinear regression models can be used for treatment effect estimation?
+	- How are causal questions different from prediction questions? (video)
+	- How are causal questions similar to prediction questions? (video)
+	- What parameter in a linear model typically tells us about the "treatment effect"? (video)
 - Code:
 	- [BART example](code/makeBARTsim.R)
 		- How is a BART model fit in R?
