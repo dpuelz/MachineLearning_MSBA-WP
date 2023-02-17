@@ -177,7 +177,9 @@ Overview: This section focuses on a powerful technique for supervised learning r
 	- How are regression trees represented?
 	- What defines the structure of a regression tree?
 	- How does a tree split on continuous and categorical variables?
-	- How does the depth of a tree relate to the bias-variance tradeoff? 
+	- How does the depth of a tree relate to the bias-variance tradeoff?
+	- Why do ensembles of trees lead to better models for prediction? (video)
+	- Describe why individual tree models are not the best for prediction (video) 
 - Textbook readings: *ISL* Ch. 8.1
 	- What is the process of "tree pruning"?
 	- How does a regresson tree incorporate interactions between input variables?
@@ -209,6 +211,9 @@ Overview: This module focuses on a key aspect of data science: Understanding unc
 	- Why do we care about quantifying uncertainty?
 	- What does sampling variability actually mean?  Describe in the context of a sampling distribution.
 	- How does the bootstrap approximate sampling variability?
+	- Why can't we just compute the actual sampling distribution?  Why is this infeasible? (video)
+	- Describe a situation where running the bootstrap is computationally burdensome?  Where is the computational "bottleneck" in the bootstrapping algorithm? (video)
+	- Why is the bootstrapped sampling distribution only approximating the true sampling distribution? (video)
 - Textbook readings: *ISL* Ch. 5.2
 	- How does the bootstrap relate to calculating investment portfolio risk?
 	- Why is sampling with replacement important?
@@ -242,15 +247,21 @@ Overview: In this module, we will turn to our first unsupervised learning techni
 - K-means and hierarchical clustering [slides](slides/week11_UT.pdf)
 	- What is the purpose of "clustering" data?
 	- What is the main drawback of default k-means, and how does k-means++ remedy this problem?
-	- What are some best practices for selecting "k", the number of clusters in the k-means algorith?
-	- Describe hiearchical clustering, and how is it different from k-means?
+	- What are some best practices for selecting "k", the number of clusters in the k-means algorithm?
+	- Describe hiearchical clustering, and how is it different from k-means.
+	- Describe the key features of a "nice" clustering. (video)
+	- How is a clustering quantitatively evaluated?  What are some useful metrics (video)
+	- Describe the importance of balance and separation in clustering. (video)
 - Textbook readings: *ISL* Ch. 10.1 and 10.3 or *ESL* Ch. 14.3 (more advanced)
 	- What is a distance function and why is it needed for clustering?
-	- Describe within and between cluster variation and why they are useful metrics?
+	- Describe within and between cluster variation and why they are useful metrics.
 	- When does the k-means algorithm terminate?
 	- What are the different linkage functions used for hiearchical clustering, and what are their pros/cons?    
 - Other readings:  
 	- K-means++ [original paper](http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf) or [simple explanation on Wikipedia](https://en.wikipedia.org/wiki/K-means%2B%2B).  This is a better recipe for initializing cluster centers in k-means than the more typical random initialization.
+		- What problem is k-means++ trying to solve?
+		- How well does this new strategy work in practice?
+		- Describe why "multiple restarts" of the algorithm is a useful practice for getting better clusterings.
 - Code:
 	- [cars.R](code/cars.R) and [cars.csv](data/cars.csv) 
 		- How is k-means applied to clustering cars?
@@ -272,6 +283,9 @@ Overview: Principal components analysis is an unsupervised learning alternative 
 - PCA [slides](slides/week12_UT.pdf)
 	- How is PCA different from clustering?
 	- What's the difference between the scores and principal components?  How are they related?
+	- How is PCA like reverse engineering how a baked good was made? (video)
+	- Are principal components and scores interpretable?  How are they typically used in a data analysis? (video)
+	- How does PCA maximally preserve information in the data? (video)
 - Textbook readings: *ISL* Ch. 10.2 for the basics or *ESL* Ch. 14.5 (more advanced)
 	- How should you interpret the output of a PCA?
 	- What are some useful plots for determining the right number of summary dimensions?
@@ -306,6 +320,11 @@ Overview: Data points are usually connected with each other in some way, e.g. so
 	- How are networks represented mathematically?
 	- What are association rules, and how do they relate to probability?
 	- How can you generate network connections in data using conditional probabilities?
+	- Why are networks so useful to study in data science? What information are they capturing? (video 1)
+	- How are networks represented and stored in a data structure? (video 1)
+	- What is degree and betweenness? (video 1)
+	- What are lift, support, and confidence and how do they relate to probability? (video 2)
+	- How do you go from association rule measures to generate edges connecting your data points? (video 2)
 - Software you'll need: [Gephi](https://gephi.org/), a great piece of software for exploring graphs and [The Gephi quick-start tutorial](https://gephi.org/tutorials/gephi-tutorial-quick_start.pdf)
 	- Why might we prefer Gephi compared to other graph visualization tools?
 	- What are useful visualization features that Gephi provides?
@@ -328,6 +347,10 @@ Overview: There is a tremendous amount of information in raw text.  From speeche
 	- What are tokens and what is tokenization?
 	- What are the common data types for text?
 	- What is the document term matrix, and what are common transformations of it?
+	- What information is potentially lost when converted raw text to data? (video)
+	- What are examples of text data used for classification? (video)
+	- What is a key-value store and vector representation of text data? (video)
+	- How is the vector representation related to the document term matrix (video)
 - Code:
 	- [tm_examples.R](code/tm_examples.R) and [selections from the Reuters newswire](https://github.com/dpuelz/MachineLearning_MSBA-WP/tree/main/data/ReutersC50)
 		- How do you process text data in R?
