@@ -153,16 +153,14 @@ Overview: The next three weeks are focused on supervised learning.  This basical
 	- What are the statistical metrics that measure a logistic regression predictive performance?
 	- How is log-odds defined?
 	- What is a link function, and what is it "linking" exactly?
-- Textbook readings: *ISL* Ch. 4.1 - 4.3
-	- Why not just fit a linear regression model to a binary outcome?
-	- What is the logistic regression model and how does it constrain the outcome to be between 0 and 1?
-	- How do you interpret coefficient in a logistic regression model?
-- Other readings: short set of [slides](slides/naive_bayes_text.pdf) on Naive Bayes with text data.
 	- What is the "naive" assumption of Naive Bayes, and why does it work so well in practice?
 	- How is Naive Bayes used for classification?
 	- How does Naive Bayes use conditional probability?
 	- What are the key differences between Naive Bayes and classification regression?
-- Code: 
+- Textbook readings: *ISL* Ch. 4.1 - 4.3
+	- Why not just fit a linear regression model to a binary outcome?
+	- What is the logistic regression model and how does it constrain the outcome to be between 0 and 1?
+	- How do you interpret coefficient in a logistic regression model?
 - [Discussion questions](discussions/week7.md)
 - [Assignment](assignments/week7.md)
 
