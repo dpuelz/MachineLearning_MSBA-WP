@@ -4,7 +4,7 @@ P = 0.09
 N = 140
 
 # Create a grid of k's
-k_grid = seq(0, 30, by=1)
+k_grid = seq(0, 50, by=1)
 
 # Probability mass function of binomial
 dbinom(k_grid, N, P)
@@ -16,7 +16,7 @@ barplot(dbinom(k_grid, N, P), names.arg = k_grid,
 # Left tail area
 sum(dbinom(0:5, N, P))
 sum(dbinom(12:140, N, P)) # this is the answer to our question on the slides!
-1 - pbinom(11, size=N, prob=P) # using the cumulative distribution function instead
+1 - pbinom(11, size=N, prob=P) # using the cumulative distribution function instead, this line of code is 1-P(X<=11)
 
 # Example 2: Poisson for soccer scores
 x_grid = 0:7
@@ -35,7 +35,7 @@ barplot(dpois(x_grid, 1.3), names.arg = x_grid,
 
 
 # Simulate lots of games according to these Poissons
-NMC = 100000
+NMC = 1000000
 UT = rpois(NMC, 1.6)
 Tech = rpois(NMC, 1.3)
 
@@ -52,6 +52,9 @@ sum(UT < Tech)/NMC
 # Compare with a calculation from the PMF assuming independence
 dpois(1, 1.6) * dpois(1, 1.3) # UT 1 - 1 Texas Tech
 dpois(2, 1.6) * dpois(0, 1.3) # UT 2 - 0 Texas Tech
+
+numgoals = 0:7
+sum(dpois(numgoals, 1.6) * dpois(numgoals, 1.3))
 
 # A cool figure for those who want to geek out with R graphics
 my_cols = grey(seq(1, 0.5, length=15))
@@ -91,7 +94,7 @@ plot(ii,pnorm(ii,mean=0,sd=1),type='l',xlab='',main='CDF of Normal')
 
 # example of adding a line on top of a histogram
 dev.off()
-X = runif(1000)
+X = runif(1000000)
 hist(X)
 hist_data <- hist(X)
 counts = hist_data$counts

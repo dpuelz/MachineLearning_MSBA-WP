@@ -2,6 +2,8 @@
 library(tidyverse)
 library(mosaic)
 
+nycflights13 <- read.csv('../data/nycflights13.csv')
+
 ##### summarize variables  #####
 nycflights13 %>%
   summarize(mean_dep_delay = mean(dep_delay))
@@ -16,7 +18,6 @@ nycflights13 %>%
 
 
 ##### Grouping by more than one variable #####
-
 by_origin_monthly = nycflights13 %>% 
   group_by(origin, month) %>% 
   summarize(count = n(),
@@ -36,6 +37,7 @@ ggplot(by_origin_monthly) +
 #####  mutate existing variables  #####
 
 # create 'gain' variable from two existing variables
+# gain is positively for each minute plane is late departing, and negatively related to each minute plane is late arriving.
 nycflights13 = nycflights13 %>% 
   mutate(gain = dep_delay - arr_delay)
 
