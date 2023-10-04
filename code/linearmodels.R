@@ -1,4 +1,5 @@
 library(lubridate)
+library(tidyverse)
 
 # example 1: of simple linear regression
 data = read.csv('../data/housedata.csv')
@@ -36,8 +37,9 @@ plot(load_combined$KHOU,load_combined$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=
 # Simple linear regression
 lm1 = lm(COAST ~ KHOU, data=load_combined)
 summary(lm1)
+plot(lm1)
 
-plot(load_combined$KHOU,load_combined$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8)
+plot(load_combined$KHOU,load_combined$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8,xlab="temperature (F)",ylab="power demand")
 abline(lm1,lty=1,lwd=4,col='blue')
 
 # What about an additional variable?
@@ -45,8 +47,10 @@ KHOU_squared = load_combined$KHOU^2
 load_combined$KHOU_squared = KHOU_squared
 lm2 = lm(COAST ~ KHOU + KHOU_squared, data=load_combined)
 summary(lm2)
+plot(lm2)
 
-plot(load_combined$KHOU,load_combined$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8)
+
+plot(load_combined$KHOU,load_combined$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8,xlab="temperature (F)",ylab="power demand")
 
 x = load_combined$KHOU
 xmin = floor(min(x))
