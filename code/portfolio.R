@@ -67,7 +67,7 @@ all_returns = cbind(	ClCl(WMTa),
 head(all_returns)
 all_returns = as.matrix(na.omit(all_returns))
 
-# Compute the returns from the closing prices
+# check out all pairwise plots
 pairs(all_returns)
 
 # Sample a random return from the empirical joint distribution
@@ -125,6 +125,7 @@ sim1 = foreach(i=1:5000, .combine='rbind') %do% {
 }
 
 # each row is a simulated trajectory
+matplot(t(sim1),type='l',col=rgb(0,0,1,alpha=0.5),lwd=0.5,lty=1)
 # each column is a data
 head(sim1)
 hist(sim1[,n_days], 25)
@@ -134,7 +135,7 @@ mean(sim1[,n_days])
 mean(sim1[,n_days] - initial_wealth)
 hist(sim1[,n_days]- initial_wealth, breaks=30)
 
-# 5% value at risk:
+# 5% (2-week) value at risk.  This answers the question, what loss or greater will I incur with a 5% probability over 2 weeks.
 quantile(sim1[,n_days]- initial_wealth, prob=0.05)
 
 # note: this is  a negative number (a loss, e.g. -500), but we conventionally

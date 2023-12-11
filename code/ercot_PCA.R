@@ -68,7 +68,7 @@ head(station_data)
 
 # plot the coordinates of the weather stations
 plot_usmap(include = c("TX", "LA", "OK", "NM", "AR")) + 
-  geom_point(data=station_data, aes(x=lon.1, y=lat.1))
+  geom_point(data=station_data, aes(x=x, y=y))
 
 
 #### 
@@ -115,23 +115,23 @@ p0 = plot_usmap(include = c("TX", "LA", "OK", "NM", "AR")) +
 # (look at the numbers on the scale)
 # the corresponding score is positive when temp is above average across texas
 # and negative when temp is below average
-p0 + geom_point(data=station_data, aes(x=lon.1, y=lat.1, color=PC1))
+p0 + geom_point(data=station_data, aes(x=x, y=y, color=PC1))
 
 # clearly contrasting temperature along the coast versus everywhere else
 # probably useful for predicting power load in Houston.
 # the corresponding score is positive whenever the coast is warmer than
 # the rest of texas, relatively speaking (i.e "hot for houston" and "cool for Amarillo")
-p0 + geom_point(data=station_data, aes(x=lon.1, y=lat.1, color=PC2))
+p0 + geom_point(data=station_data, aes(x=x, y=y, color=PC2))
 
 # contrasting the Rio Grande Valley and desert-like parts
 # of Texas and New Mexico with everywhere else
-p0 + geom_point(data=station_data, aes(x=lon.1, y=lat.1, color=PC3))
+p0 + geom_point(data=station_data, aes(x=x, y=y, color=PC3))
 
 # contrasting central texas with elsewhere
-p0 + geom_point(data=station_data, aes(x=lon.1, y=lat.1, color=PC4))
+p0 + geom_point(data=station_data, aes(x=x, y=y, color=PC4))
 
 # far south texas vs everywhere else
-p0 + geom_point(data=station_data, aes(x=lon.1, y=lat.1, color=PC5))
+p0 + geom_point(data=station_data, aes(x=x, y=y, color=PC5))
 
 
 # Second we can look at the scores, i.e. go hour by hour and ask:
@@ -162,7 +162,7 @@ p1 + geom_line(aes(x=yday(time), y=PC2)) + facet_wrap(~year(time))
 # remember what PC2 represented!
 # it's high when the Gulf Coast is hotter than other areas,
 # relative to average temps
-p0 + geom_point(data=station_data, aes(x=lon.1, y=lat.1, color=PC2)) 
+p0 + geom_point(data=station_data, aes(x=x, y=y, color=PC2)) 
 
 # PC3 score over time
 # maybe a little periodic?
