@@ -16,7 +16,7 @@ Please submit your final reports via Canvas under the "Assignments" tab as a kni
 
 ## Final project
 
-The final project is an extended set of exercises that synthesize all tools and methods we have learned in this course.  You are encouraged to work in groups of up to 4 students, and each group only needs to turn in one copy of solutions.  The final project questions can be found [here](final/final.md).
+The final project is an extended set of exercises that synthesize all tools and methods we have learned in this course.  The final project questions can be found [here](final/final.md).
 
 # Course structure
 
