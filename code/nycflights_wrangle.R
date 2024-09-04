@@ -37,7 +37,7 @@ ggplot(by_origin_monthly) +
 #####  mutate existing variables  #####
 
 # create 'gain' variable from two existing variables
-# gain is positively for each minute plane is late departing, and negatively related to each minute plane is late arriving.
+# gain is positive for each minute plane is late departing, and negative for each minute plane is late arriving.
 nycflights13 = nycflights13 %>% 
   mutate(gain = dep_delay - arr_delay)
 
