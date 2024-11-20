@@ -5,6 +5,8 @@ library(lubridate)
 library(randomForest)
 library(splines)
 library(pdp)
+library(sf)
+
 
 # Note: before loading the data,
 # you'll first need to unzip the ercot folder
@@ -15,7 +17,7 @@ library(pdp)
 # units of grid load are megawatts.
 # This represents peak instantaneous demand for power in that hour.
 # source: scraped from the ERCOT website
-load_data = read.csv("../data/ercot/load_data.csv")
+load_data = read.csv("../data/load_data.csv")
 head(load_data)
 
 # Now weather data at hundreds of weather stations
@@ -53,17 +55,28 @@ all(time_stamp ==  ymd_hms(rownames(temperature_impute)))
 station_data = subset(station_data, state != 'MX')
 
 # Make a map.
-# First, project project the lon, lat coordinates
+# First, project the lon, lat coordinates
 # to the same coordinate system used by usmap
 station_map = station_data %>%
   select(lon, lat) %>%
-  usmap_transform 
+  usmap_transform
+
+station_map <- station_data %>%
+  select(lon, lat) %>%
+  usmap_transform() %>%
+  mutate(lon = station_data$lon, lat = station_data$lat)
+
+station_map <- station_map %>%
+  mutate(x = st_coordinates(.)[,1],
+         y = st_coordinates(.)[,2]) %>%
+  select(-geometry)
 
 head(station_map)
 
 # now merge these coordinates station name
 station_data = station_data %>% rownames_to_column('station')
 station_data = merge(station_data, station_map, by=c('lat', 'lon'))
+
 head(station_data)
 
 # plot the coordinates of the weather stations
@@ -137,7 +150,6 @@ p0 + geom_point(data=station_data, aes(x=x, y=y, color=PC5))
 # Second we can look at the scores, i.e. go hour by hour and ask:
 # what the first summary of these 256 variables?
 # What the second summary?  etc
-
 scores = pc_weather$x
 
 p1 = pc_weather$x %>%
@@ -172,7 +184,7 @@ p1 + geom_line(aes(x=yday(time), y=PC3)) + facet_wrap(~year(time))
 # as with PC2, remember what PC3 represented:
 # it's high/positive when the Rio Grande Valley and west Texas are hotter
 # than the rest of Texas, relative to average temperatures in those regions
-p0 + geom_point(data=station_data, aes(x=lon.1, y=lat.1, color=PC3)) 
+p0 + geom_point(data=station_data, aes(x=x, y=y, color=PC3)) 
 
 # so if you had to guess, you might expect that:
 # - PC1 + PC2 will be useful for predicting load in the Coast region
@@ -204,8 +216,6 @@ train_ind = sample.int(N, N_train, replace=FALSE) %>% sort
 load_train = load_combined[train_ind,]
 load_test = load_combined[-train_ind,]
 
-
-
 # try random forests -- nice "go-to" as a first attempt at block-box predictive modeling
 # note: this takes awhile!
 forest_coast = randomForest(COAST ~ hour + day + month + PC1 + PC2 + PC3 + PC4 + PC5,
@@ -216,15 +226,22 @@ yhat_forest_coast = predict(forest_coast, load_test)
 mean((yhat_forest_coast - load_test$COAST)^2) %>% sqrt
 
 # useful to compare to a linear model with each PC expanded in a spline basis
-lm_coast = lm(COAST ~ factor(day) + factor(month) + bs(hour, 7) + 
-           bs(PC1, 7) +  bs(PC2, 7) + bs(PC3, 7) + bs(PC4, 7) + bs(PC5, 7),
-         data=load_train)
+# lm_coast = lm(COAST ~ factor(day) + factor(month) + bs(hour, 7) + 
+#            bs(PC1, 7) +  bs(PC2, 7) + bs(PC3, 7) + bs(PC4, 7) + bs(PC5, 7),
+#          data=load_train)
+
+lm_coast = lm(COAST ~ factor(day) + factor(month) + hour + PC1 + PC2 + PC3 + PC4 + PC5,data=load_train)
 yhat_coast_lm2 = predict(lm_coast, load_test)
 
 # massive improvement, even when throwing in nonlinearities in the PCs
 mean((yhat_coast_lm2 - load_test$COAST)^2) %>% sqrt
 
 # Let's visualize the fit of the random forest
+par(mfrow=c(1,2))
+plot(yhat_forest_coast,load_test$COAST,pch=19,cex=0.5,xlim=c(6000,18000),ylim=c(6000,18000))
+abline(0,1,col='red',lwd=2)
+plot(yhat_coast_lm2,load_test$COAST,pch=19,cex=0.5,col='gray',xlim=c(6000,18000),ylim=c(6000,18000))
+abline(0,1,col='red',lwd=2)
 
 # performance as a function of iteration number
 # seems to have leveled off

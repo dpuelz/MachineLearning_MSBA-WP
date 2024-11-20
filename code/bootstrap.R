@@ -74,10 +74,10 @@ for(ii in 1:numboot){
 }
 
 # smaller sample
-load_combined_small = sample(load_combined,15)
+load_combined_small = sample(load_combined,20)
 KHOU_squared = load_combined_small$KHOU^2
 load_combined_small$KHOU_squared = KHOU_squared
-numboot = 200
+numboot = 1000
 lm2 = do(numboot)*(lm(COAST ~ KHOU + KHOU_squared, data=resample(load_combined_small)))
 
 plot(load_combined_small$KHOU,load_combined_small$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8,xlab="temperature (F)",ylab="power demand",ylim=c(6000,20000),xlim=c(20,106))

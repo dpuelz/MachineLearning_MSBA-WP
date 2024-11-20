@@ -128,7 +128,6 @@ sim1 = foreach(i=1:5000, .combine='rbind') %do% {
 matplot(t(sim1),type='l',col=rgb(0,0,1,alpha=0.5),lwd=0.5,lty=1)
 # each column is a data
 head(sim1)
-hist(sim1[,n_days], 25)
 
 # Profit/loss
 mean(sim1[,n_days])
